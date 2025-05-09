@@ -1,0 +1,923 @@
+winamax: [{'team1': 'Lille', 'team2': 'Auxerre', 'odds': [1.4, 4.7, 7.5]}, {'team1': 'Nice', 'team2': 'Angers', 'odds': [1.33, 5.3, 9.0]}, {'team1': 'Brest', 'team2': 'Lens', 'odds': [2.3, 3.35, 3.0]}, {'team1': 'Reims', 'team2': 'Toulouse', 'odds': [3.3, 3.25, 2.25]}, {'team1': 'Saint-Étienne', 'team2': 'Lyon', 'odds': [4.5, 4.3, 1.66]}, {'team1': 'Nantes', 'team2': 'Paris SG', 'odds': [6.75, 5.2, 1.34]}, {'team1': 'Paris SG', 'team2': 'Nice', 'odds': [1.42, 4.7, 5.8]}, {'team1': 'Strasbourg', 'team2': 'Saint-Étienne', 'odds': [1.56, 4.2, 4.7]}, {'team1': 'Le Havre', 'team2': 'Monaco', 'odds': [5.8, 4.7, 1.42]}, {'team1': 'Lyon', 'team2': 'Rennes', 'odds': [1.7, 3.95, 4.0]}, {'team1': 'Angers', 'team2': 'Lille', 'odds': [4.6, 3.7, 1.66]}, {'team1': 'Montpellier', 'team2': 'Reims', 'odds': [3.8, 3.55, 1.84]}, {'team1': 'Lens', 'team2': 'Auxerre', 'odds': [1.66, 3.8, 4.4]}, {'team1': 'Nantes', 'team2': 'Toulouse', 'odds': [3.05, 3.25, 2.2]}, {'team1': 'Marseille', 'team2': 'Brest', 'odds': [1.56, 4.1, 4.9]}]
+pmu: []
+betclic: [{'team1': 'Lille', 'team2': 'Auxerre', 'odds': [1.41, 4.75, 7.75]}, {'team1': 'Nice', 'team2': 'Angers', 'odds': [1.34, 5.2, 8.85]}, {'team1': 'Brest', 'team2': 'Lens', 'odds': [2.34, 3.4, 3.05]}, {'team1': 'Reims', 'team2': 'Toulouse', 'odds': [3.28, 3.3, 2.26]}, {'team1': 'Saint-Etienne', 'team2': 'Lyon', 'odds': [4.62, 4.43, 1.65]}, {'team1': 'Nantes', 'team2': 'Paris SG', 'odds': [7.5, 5.7, 1.33]}, {'team1': 'Paris SG', 'team2': 'Nice', 'odds': [1.42, 4.85, 5.9]}, {'team1': 'Strasbourg', 'team2': 'Saint-Etienne', 'odds': [1.56, 4.33, 4.78]}, {'team1': 'Le Havre', 'team2': 'Monaco', 'odds': [5.95, 4.85, 1.42]}, {'team1': 'Lyon', 'team2': 'Rennes', 'odds': [1.7, 4.02, 4.12]}, {'team1': 'Angers', 'team2': 'Lille', 'odds': [4.62, 3.72, 1.66]}, {'team1': 'Lens', 'team2': 'Auxerre', 'odds': [1.65, 3.82, 4.47]}, {'team1': 'Montpellier', 'team2': 'Reims', 'odds': [3.82, 3.53, 1.83]}, {'team1': 'Nantes', 'team2': 'Toulouse', 'odds': [3.03, 3.25, 2.21]}, {'team1': 'Marseille', 'team2': 'Brest', 'odds': [1.56, 4.08, 4.87]}]
+zebet: [{'team1': 'Lille', 'team2': 'Auxerre', 'odds': [1.38, 4.8, 7.8]}, {'team1': 'Nice', 'team2': 'Angers', 'odds': [1.32, 5.2, 8.8]}, {'team1': 'Brest', 'team2': 'Lens', 'odds': [2.25, 3.4, 3.05]}, {'team1': 'Reims', 'team2': 'Toulouse', 'odds': [3.3, 3.3, 2.2]}, {'team1': 'St Etienne', 'team2': 'Lyon', 'odds': [4.6, 4.45, 1.65]}, {'team1': 'Nantes', 'team2': 'Paris SG', 'odds': [7.3, 5.5, 1.33]}, {'team1': 'Paris SG', 'team2': 'Nice', 'odds': [1.4, 4.95, 6.1]}, {'team1': 'Strasbourg', 'team2': 'St Etienne', 'odds': [1.56, 4.25, 4.45]}, {'team1': 'Le Havre', 'team2': 'Monaco', 'odds': [6.0, 4.85, 1.38]}, {'team1': 'Lyon', 'team2': 'Rennes', 'odds': [1.64, 4.0, 4.1]}, {'team1': 'Angers', 'team2': 'Lille', 'odds': [4.5, 3.65, 1.63]}, {'team1': 'Nantes', 'team2': 'Toulouse', 'odds': [3.0, 3.2, 2.15]}, {'team1': 'Lens', 'team2': 'Auxerre', 'odds': [1.63, 3.75, 4.35]}, {'team1': 'Marseille', 'team2': 'Brest', 'odds': [1.57, 4.05, 4.85]}]
+netbet: [{'team1': 'Lille', 'team2': 'Auxerre', 'odds': [1.39, 4.7, 8.0]}, {'team1': 'Brest', 'team2': 'Lens', 'odds': [2.35, 3.35, 3.05]}, {'team1': 'Nice', 'team2': 'Angers', 'odds': [1.34, 5.1, 8.75]}, {'team1': 'Reims', 'team2': 'Toulouse', 'odds': [3.25, 3.3, 2.22]}, {'team1': 'Saint-Étienne', 'team2': 'Lyon', 'odds': [4.6, 4.3, 1.65]}, {'team1': 'Nantes', 'team2': 'Paris SG', 'odds': [7.25, 5.4, 1.35]}, {'team1': 'Le Havre', 'team2': 'Monaco', 'odds': [6.1, 4.9, 1.43]}]
+unibet: [{'team1': 'Lille', 'team2': 'Auxerre', 'odds': [1.39, 4.75, 7.7]}, {'team1': 'Brest', 'team2': 'Lens', 'odds': [2.3, 3.38, 3.05]}, {'team1': 'Nice', 'team2': 'Angers', 'odds': [1.33, 5.15, 8.65]}, {'team1': 'Reims', 'team2': 'Toulouse', 'odds': [3.28, 3.3, 2.22]}, {'team1': 'Saint-Etienne', 'team2': 'Lyon', 'odds': [4.55, 4.35, 1.64]}, {'team1': 'Nantes', 'team2': 'Paris SG', 'odds': [7.15, 5.45, 1.34]}, {'team1': 'Paris SG', 'team2': 'Nice', 'odds': [1.4, 4.85, 5.9]}, {'team1': 'Strasbourg', 'team2': 'Saint-Etienne', 'odds': [1.54, 4.35, 4.8]}, {'team1': 'Le Havre', 'team2': 'Monaco', 'odds': [5.95, 4.85, 1.4]}, {'team1': 'Lyon', 'team2': 'Rennes', 'odds': [1.67, 4.0, 4.1]}, {'team1': 'Angers', 'team2': 'Lille', 'odds': [4.7, 3.78, 1.63]}, {'team1': 'Lens', 'team2': 'Auxerre', 'odds': [1.63, 3.88, 4.55]}, {'team1': 'Montpellier', 'team2': 'Reims', 'odds': [3.88, 3.58, 1.81]}, {'team1': 'Nantes', 'team2': 'Toulouse', 'odds': [3.08, 3.3, 2.17]}, {'team1': 'Marseille', 'team2': 'Brest', 'odds': [1.54, 4.15, 4.95]}]
+-- Competition: {'sport': 'football', 'competition': 'ligue1'} --
+-- Arbitrage on: 
+winamax   : Lille - Auxerre @1.4/4.7/7.5
+betclic   : Lille - Auxerre @1.41/4.75/7.75
+zebet     : Lille - Auxerre @1.38/4.8/7.8
+netbet    : Lille - Auxerre @1.39/4.7/8.0
+unibet    : Lille - Auxerre @1.39/4.75/7.7
+(betclic   /zebet     /netbet    ) -4.26%
+-- Arbitrage on: 
+winamax   : Nice - Angers @1.33/5.3/9.0
+betclic   : Nice - Angers @1.34/5.2/8.85
+zebet     : Nice - Angers @1.32/5.2/8.8
+netbet    : Nice - Angers @1.34/5.1/8.75
+unibet    : Nice - Angers @1.33/5.15/8.65
+(betclic   /winamax   /winamax   ) -4.61%
+-- Arbitrage on: 
+winamax   : Brest - Lens @2.3/3.35/3.0
+betclic   : Brest - Lens @2.34/3.4/3.05
+zebet     : Brest - Lens @2.25/3.4/3.05
+netbet    : Brest - Lens @2.35/3.35/3.05
+unibet    : Brest - Lens @2.3/3.38/3.05
+(netbet    /betclic   /betclic   ) -4.75%
+-- Arbitrage on: 
+winamax   : Reims - Toulouse @3.3/3.25/2.25
+betclic   : Reims - Toulouse @3.28/3.3/2.26
+zebet     : Reims - Toulouse @3.3/3.3/2.2
+netbet    : Reims - Toulouse @3.25/3.3/2.22
+unibet    : Reims - Toulouse @3.28/3.3/2.22
+(winamax   /betclic   /betclic   ) -4.85%
+-- Arbitrage on: 
+winamax   : Saint-Étienne - Lyon @4.5/4.3/1.66
+betclic   : Saint-Etienne - Lyon @4.62/4.43/1.65
+zebet     : St Etienne - Lyon @4.6/4.45/1.65
+netbet    : Saint-Étienne - Lyon @4.6/4.3/1.65
+unibet    : Saint-Etienne - Lyon @4.55/4.35/1.64
+(betclic   /zebet     /winamax   ) -4.36%
+-- Arbitrage on: 
+winamax   : Nantes - Paris SG @6.75/5.2/1.34
+betclic   : Nantes - Paris SG @7.5/5.7/1.33
+zebet     : Nantes - Paris SG @7.3/5.5/1.33
+netbet    : Nantes - Paris SG @7.25/5.4/1.35
+unibet    : Nantes - Paris SG @7.15/5.45/1.34
+(betclic   /betclic   /netbet    ) -4.95%
+-- Arbitrage on: 
+winamax   : Paris SG - Nice @1.42/4.7/5.8
+betclic   : Paris SG - Nice @1.42/4.85/5.9
+zebet     : Paris SG - Nice @1.4/4.95/6.1
+unibet    : Paris SG - Nice @1.4/4.85/5.9
+(winamax   /zebet     /zebet     ) -7.02%
+-- Arbitrage on: 
+winamax   : Strasbourg - Saint-Étienne @1.56/4.2/4.7
+betclic   : Strasbourg - Saint-Etienne @1.56/4.33/4.78
+zebet     : Strasbourg - St Etienne @1.56/4.25/4.45
+unibet    : Strasbourg - Saint-Etienne @1.54/4.35/4.8
+(winamax   /unibet    /unibet    ) -7.92%
+-- Arbitrage on: 
+winamax   : Le Havre - Monaco @5.8/4.7/1.42
+betclic   : Le Havre - Monaco @5.95/4.85/1.42
+zebet     : Le Havre - Monaco @6.0/4.85/1.38
+netbet    : Le Havre - Monaco @6.1/4.9/1.43
+unibet    : Le Havre - Monaco @5.95/4.85/1.4
+(netbet    /netbet    /netbet    ) -6.73%
+-- Arbitrage on: 
+winamax   : Lyon - Rennes @1.7/3.95/4.0
+betclic   : Lyon - Rennes @1.7/4.02/4.12
+zebet     : Lyon - Rennes @1.64/4.0/4.1
+unibet    : Lyon - Rennes @1.67/4.0/4.1
+(winamax   /betclic   /betclic   ) -7.97%
+-- Arbitrage on: 
+winamax   : Angers - Lille @4.6/3.7/1.66
+betclic   : Angers - Lille @4.62/3.72/1.66
+zebet     : Angers - Lille @4.5/3.65/1.63
+unibet    : Angers - Lille @4.7/3.78/1.63
+(unibet    /unibet    /winamax   ) -7.97%
+-- Arbitrage on: 
+winamax   : Montpellier - Reims @3.8/3.55/1.84
+betclic   : Montpellier - Reims @3.82/3.53/1.83
+unibet    : Montpellier - Reims @3.88/3.58/1.81
+(unibet    /unibet    /winamax   ) -8.05%
+-- Arbitrage on: 
+winamax   : Lens - Auxerre @1.66/3.8/4.4
+betclic   : Lens - Auxerre @1.65/3.82/4.47
+zebet     : Lens - Auxerre @1.63/3.75/4.35
+unibet    : Lens - Auxerre @1.63/3.88/4.55
+(winamax   /unibet    /unibet    ) -7.99%
+-- Arbitrage on: 
+winamax   : Nantes - Toulouse @3.05/3.25/2.2
+betclic   : Nantes - Toulouse @3.03/3.25/2.21
+zebet     : Nantes - Toulouse @3.0/3.2/2.15
+unibet    : Nantes - Toulouse @3.08/3.3/2.17
+(unibet    /unibet    /betclic   ) -8.02%
+-- Arbitrage on: 
+winamax   : Marseille - Brest @1.56/4.1/4.9
+betclic   : Marseille - Brest @1.56/4.08/4.87
+zebet     : Marseille - Brest @1.57/4.05/4.85
+unibet    : Marseille - Brest @1.54/4.15/4.95
+(zebet     /unibet    /unibet    ) -7.99%
+winamax: [{'team1': 'Real Valladolid', 'team2': 'Osasuna', 'odds': [4.8, 3.45, 1.78]}, {'team1': 'Villarreal', 'team2': 'Real Sociedad', 'odds': [1.7, 3.8, 4.8]}, {'team1': 'FC Séville', 'team2': 'Alaves', 'odds': [2.0, 3.1, 4.2]}, {'team1': 'Real Madrid', 'team2': 'Athletic Bilbao', 'odds': [1.62, 4.0, 5.1]}, {'team1': 'Gérone', 'team2': 'Betis Séville', 'odds': [2.85, 3.35, 2.45]}, {'team1': 'Valence', 'team2': 'Espanyol Barcelone', 'odds': [1.62, 3.35, 4.5]}, {'team1': 'FC Barcelone', 'team2': 'Majorque', 'odds': [1.2, 6.25, 10.5]}, {'team1': 'Athletic Bilbao', 'team2': 'Las Palmas', 'odds': [1.31, 5.0, 8.0]}, {'team1': 'Celta Vigo', 'team2': 'Villarreal', 'odds': [2.5, 3.0, 2.8]}, {'team1': 'Getafe', 'team2': 'Real Madrid', 'odds': [4.3, 3.6, 1.74]}, {'team1': 'Alaves', 'team2': 'Real Sociedad', 'odds': [2.3, 2.95, 3.2]}, {'team1': 'Leganes', 'team2': 'Gérone', 'odds': [2.5, 3.05, 2.8]}, {'team1': 'Osasuna', 'team2': 'FC Séville', 'odds': [2.6, 2.95, 2.75]}, {'team1': 'Atletico Madrid', 'team2': 'Rayo Vallecano', 'odds': [1.56, 3.75, 5.5]}, {'team1': 'Betis Séville', 'team2': 'Real Valladolid', 'odds': [1.21, 6.0, 10.5]}, {'team1': 'Villarreal', 'team2': 'Espanyol Barcelone', 'odds': [1.41, 4.5, 6.5]}]
+pmu: []
+betclic: [{'team1': 'Real Valladolid', 'team2': 'Osasuna', 'odds': [4.6, 3.52, 1.79]}, {'team1': 'Villarreal', 'team2': 'Real Sociedad', 'odds': [1.7, 3.83, 4.75]}, {'team1': 'Séville', 'team2': 'Alaves', 'odds': [1.99, 3.1, 4.25]}, {'team1': 'Real Madrid', 'team2': 'Athletic Bilbao', 'odds': [1.64, 3.98, 5]}, {'team1': 'Gérone', 'team2': 'Betis', 'odds': [2.82, 3.33, 2.41]}, {'team1': 'Valence', 'team2': 'Espanyol', 'odds': [1.69, 3.62, 4.9]}, {'team1': 'Barcelone', 'team2': 'Majorque', 'odds': [1.22, 6.3, 10.75]}, {'team1': 'Athletic Bilbao', 'team2': 'Las Palmas', 'odds': [1.31, 5.1, 8.3]}, {'team1': 'Celta Vigo', 'team2': 'Villarreal', 'odds': [2.36, 3.33, 2.81]}, {'team1': 'Alaves', 'team2': 'Real Sociedad', 'odds': [2.3, 2.98, 3.23]}, {'team1': 'Getafe', 'team2': 'Real Madrid', 'odds': [4.37, 3.63, 1.74]}, {'team1': 'Osasuna', 'team2': 'Séville', 'odds': [2.56, 2.98, 2.75]}, {'team1': 'Leganes', 'team2': 'Gérone', 'odds': [2.45, 3.07, 2.81]}, {'team1': 'Betis', 'team2': 'Real Valladolid', 'odds': [1.21, 5.9, 10.75]}, {'team1': 'Atlético Madrid', 'team2': 'Rayo Vallecano', 'odds': [1.55, 3.75, 5.55]}, {'team1': 'Villarreal', 'team2': 'Espanyol', 'odds': [1.39, 4.35, 6.2]}]
+zebet: []
+netbet: [{'team1': 'Valladolid', 'team2': 'Osasuna', 'odds': [4.6, 3.45, 1.75]}, {'team1': 'Villarreal', 'team2': 'Real Sociedad', 'odds': [1.72, 3.75, 4.7]}, {'team1': 'Séville', 'team2': 'Alaves', 'odds': [1.97, 3.05, 4.3]}, {'team1': 'Real Madrid', 'team2': 'Athletic Bilbao', 'odds': [1.6, 4.0, 5.3]}, {'team1': 'Gérone', 'team2': 'Betis', 'odds': [2.8, 3.3, 2.42]}, {'team1': 'Valence', 'team2': 'Espanyol Barcelone', 'odds': [1.68, 3.6, 4.9]}, {'team1': 'FC Barcelone', 'team2': 'Majorque', 'odds': [1.2, 6.5, 11.5]}, {'team1': 'Atlético Madrid', 'team2': 'Rayo Vallecano', 'odds': [1.57, 3.8, 5.7]}]
+unibet: [{'team1': 'Valladolid', 'team2': 'Osasuna', 'odds': [4.7, 3.58, 1.77]}, {'team1': 'Villarreal', 'team2': 'Real Sociedad', 'odds': [1.72, 3.78, 4.7]}, {'team1': 'FC Séville', 'team2': 'Alaves', 'odds': [1.98, 3.12, 4.3]}, {'team1': 'Real Madrid', 'team2': 'Athletic Bilbao', 'odds': [1.63, 4.0, 5.05]}, {'team1': 'Gerone', 'team2': 'Betis Séville', 'odds': [2.82, 3.35, 2.4]}, {'team1': 'Valence', 'team2': 'Espanyol Barcelone', 'odds': [1.68, 3.58, 4.85]}, {'team1': 'FC Barcelone', 'team2': 'Majorque', 'odds': [1.22, 6.15, 10.5]}, {'team1': 'Athletic Bilbao', 'team2': 'Las Palmas', 'odds': [1.31, 5.1, 8.3]}, {'team1': 'Celta Vigo', 'team2': 'Villarreal', 'odds': [2.36, 3.32, 2.8]}, {'team1': 'Alaves', 'team2': 'Real Sociedad', 'odds': [2.3, 2.98, 3.22]}, {'team1': 'Getafe', 'team2': 'Real Madrid', 'odds': [4.35, 3.62, 1.74]}, {'team1': 'Leganes', 'team2': 'Gerone', 'odds': [2.43, 3.05, 2.78]}, {'team1': 'Osasuna', 'team2': 'FC Séville', 'odds': [2.52, 2.95, 2.72]}, {'team1': 'Atletico Madrid', 'team2': 'Rayo Vallecano', 'odds': [1.54, 3.7, 5.5]}, {'team1': 'Betis Séville', 'team2': 'Valladolid', 'odds': [1.2, 5.8, 10.5]}]
+-- Competition: {'sport': 'football', 'competition': 'liga'} --
+-- Arbitrage on: 
+winamax   : Real Valladolid - Osasuna @4.8/3.45/1.78
+betclic   : Real Valladolid - Osasuna @4.6/3.52/1.79
+netbet    : Valladolid - Osasuna @4.6/3.45/1.75
+unibet    : Valladolid - Osasuna @4.7/3.58/1.77
+(winamax   /unibet    /betclic   ) -4.63%
+-- Arbitrage on: 
+winamax   : Villarreal - Real Sociedad @1.7/3.8/4.8
+betclic   : Villarreal - Real Sociedad @1.7/3.83/4.75
+netbet    : Villarreal - Real Sociedad @1.72/3.75/4.7
+unibet    : Villarreal - Real Sociedad @1.72/3.78/4.7
+(netbet    /betclic   /winamax   ) -5.08%
+-- Arbitrage on: 
+winamax   : FC Séville - Alaves @2.0/3.1/4.2
+betclic   : Séville - Alaves @1.99/3.1/4.25
+netbet    : Séville - Alaves @1.97/3.05/4.3
+unibet    : FC Séville - Alaves @1.98/3.12/4.3
+(winamax   /unibet    /netbet    ) -5.31%
+-- Arbitrage on: 
+winamax   : Real Madrid - Athletic Bilbao @1.62/4.0/5.1
+betclic   : Real Madrid - Athletic Bilbao @1.64/3.98/5
+netbet    : Real Madrid - Athletic Bilbao @1.6/4.0/5.3
+unibet    : Real Madrid - Athletic Bilbao @1.63/4.0/5.05
+(betclic   /winamax   /netbet    ) -4.84%
+-- Arbitrage on: 
+winamax   : Gérone - Betis Séville @2.85/3.35/2.45
+unibet    : Gerone - Betis Séville @2.82/3.35/2.4
+(winamax   /winamax   /winamax   ) -5.75%
+-- Arbitrage on: 
+winamax   : Valence - Espanyol Barcelone @1.62/3.35/4.5
+betclic   : Valence - Espanyol @1.69/3.62/4.9
+netbet    : Valence - Espanyol Barcelone @1.68/3.6/4.9
+unibet    : Valence - Espanyol Barcelone @1.68/3.58/4.85
+(betclic   /betclic   /betclic   ) -7.20%
+-- Arbitrage on: 
+winamax   : FC Barcelone - Majorque @1.2/6.25/10.5
+betclic   : Barcelone - Majorque @1.22/6.3/10.75
+netbet    : FC Barcelone - Majorque @1.2/6.5/11.5
+unibet    : FC Barcelone - Majorque @1.22/6.15/10.5
+(betclic   /netbet    /netbet    ) -6.05%
+-- Arbitrage on: 
+winamax   : Athletic Bilbao - Las Palmas @1.31/5.0/8.0
+betclic   : Athletic Bilbao - Las Palmas @1.31/5.1/8.3
+unibet    : Athletic Bilbao - Las Palmas @1.31/5.1/8.3
+(winamax   /betclic   /betclic   ) -7.99%
+-- Arbitrage on: 
+winamax   : Celta Vigo - Villarreal @2.5/3.0/2.8
+betclic   : Celta Vigo - Villarreal @2.36/3.33/2.81
+unibet    : Celta Vigo - Villarreal @2.36/3.32/2.8
+(winamax   /betclic   /betclic   ) -5.62%
+-- Arbitrage on: 
+winamax   : Getafe - Real Madrid @4.3/3.6/1.74
+betclic   : Getafe - Real Madrid @4.37/3.63/1.74
+unibet    : Getafe - Real Madrid @4.35/3.62/1.74
+(betclic   /betclic   /winamax   ) -7.90%
+-- Arbitrage on: 
+winamax   : Alaves - Real Sociedad @2.3/2.95/3.2
+betclic   : Alaves - Real Sociedad @2.3/2.98/3.23
+unibet    : Alaves - Real Sociedad @2.3/2.98/3.22
+(winamax   /betclic   /betclic   ) -8.00%
+-- Arbitrage on: 
+winamax   : Leganes - Gérone @2.5/3.05/2.8
+betclic   : Leganes - Gérone @2.45/3.07/2.81
+unibet    : Leganes - Gerone @2.43/3.05/2.78
+(winamax   /betclic   /betclic   ) -8.16%
+-- Arbitrage on: 
+winamax   : Osasuna - FC Séville @2.6/2.95/2.75
+betclic   : Osasuna - Séville @2.56/2.98/2.75
+unibet    : Osasuna - FC Séville @2.52/2.95/2.72
+(winamax   /betclic   /winamax   ) -8.38%
+-- Arbitrage on: 
+winamax   : Atletico Madrid - Rayo Vallecano @1.56/3.75/5.5
+betclic   : Atlético Madrid - Rayo Vallecano @1.55/3.75/5.55
+netbet    : Atlético Madrid - Rayo Vallecano @1.57/3.8/5.7
+unibet    : Atletico Madrid - Rayo Vallecano @1.54/3.7/5.5
+(netbet    /netbet    /netbet    ) -7.55%
+-- Arbitrage on: 
+winamax   : Betis Séville - Real Valladolid @1.21/6.0/10.5
+unibet    : Betis Séville - Valladolid @1.2/5.8/10.5
+(winamax   /winamax   /winamax   ) -8.84%
+-- Arbitrage on: 
+winamax   : Villarreal - Espanyol Barcelone @1.41/4.5/6.5
+betclic   : Villarreal - Espanyol @1.39/4.35/6.2
+(winamax   /winamax   /winamax   ) -8.53%
+winamax: [{'team1': 'Augsbourg', 'team2': 'Eintracht Francfort', 'odds': [2.5, 3.35, 2.75]}, {'team1': 'Borussia Dortmund', 'team2': "Borussia M'Gladbach", 'odds': [1.38, 5.5, 6.5]}, {'team1': 'St. Pauli', 'team2': 'Bayer Leverkusen', 'odds': [5.3, 3.85, 1.64]}, {'team1': 'VfB Stuttgart', 'team2': 'Heidenheim', 'odds': [1.5, 4.4, 5.3]}, {'team1': 'Bayern Munich', 'team2': 'Mayence', 'odds': [1.21, 6.25, 10.0]}, {'team1': 'Bayer Leverkusen', 'team2': 'Augsbourg', 'odds': [1.33, 4.7, 8.0]}, {'team1': 'TSG Hoffenheim', 'team2': 'Borussia Dortmund', 'odds': [3.5, 3.95, 1.82]}, {'team1': 'Holstein Kiel', 'team2': "Borussia M'Gladbach", 'odds': [2.85, 3.7, 2.15]}, {'team1': 'Wolfsbourg', 'team2': 'Fribourg', 'odds': [2.15, 3.5, 2.95]}, {'team1': 'Eintracht Francfort', 'team2': 'RB Leipzig', 'odds': [2.25, 3.65, 2.65]}, {'team1': 'Bochum', 'team2': 'Union Berlin', 'odds': [2.3, 3.35, 2.8]}, {'team1': 'Werder Brême', 'team2': 'St. Pauli', 'odds': [1.94, 3.5, 3.5]}]
+pmu: []
+betclic: [{'team1': 'Augsbourg', 'team2': 'Eintracht Francfort', 'odds': [2.49, 3.37, 2.76]}, {'team1': 'Borussia Dortmund', 'team2': "Borussia M'gladbach", 'odds': [1.38, 5.4, 6.6]}, {'team1': 'FC St. Pauli', 'team2': 'Bayer Leverkusen', 'odds': [5.25, 3.8, 1.65]}, {'team1': 'Stuttgart', 'team2': 'Heidenheim', 'odds': [1.47, 4.37, 5.25]}, {'team1': 'Bayer Leverkusen', 'team2': 'Augsbourg', 'odds': [1.31, 4.68, 8.1]}, {'team1': 'Holstein Kiel', 'team2': "Borussia M'gladbach", 'odds': [2.83, 3.67, 2.11]}, {'team1': 'Wolfsburg', 'team2': 'Fribourg', 'odds': [2.13, 3.48, 2.93]}, {'team1': 'Hoffenheim', 'team2': 'Borussia Dortmund', 'odds': [3.48, 3.9, 1.8]}, {'team1': 'Bayern Munich', 'team2': 'Mayence', 'odds': [1.19, 6.15, 10]}, {'team1': 'Eintracht Francfort', 'team2': 'RB Leipzig', 'odds': [2.22, 3.65, 2.66]}, {'team1': 'Bochum', 'team2': 'Union Berlin', 'odds': [2.28, 3.25, 2.75]}, {'team1': 'Werder Brême', 'team2': 'FC St. Pauli', 'odds': [1.91, 3.42, 3.4]}]
+zebet: [{'team1': 'Augsburg', 'team2': 'Ein.Francfort', 'odds': [2.45, 3.4, 2.8]}, {'team1': 'Dortmund', 'team2': "M'Gladbach", 'odds': [1.36, 5.6, 6.8]}, {'team1': 'St Pauli', 'team2': 'Leverkusen', 'odds': [5.3, 3.85, 1.64]}, {'team1': 'Stuttgart', 'team2': 'FC Heidenheim', 'odds': [1.46, 4.55, 5.4]}, {'team1': 'Bayern Munich', 'team2': 'Mayence', 'odds': [1.18, 6.4, 10.5]}, {'team1': 'Leverkusen', 'team2': 'Augsburg', 'odds': [1.29, 4.85, 8.4]}, {'team1': 'Holstein Kiel', 'team2': "M'Gladbach", 'odds': [2.9, 3.75, 2.05]}, {'team1': 'Wolfsburg', 'team2': 'Fribourg', 'odds': [2.05, 3.55, 3.0]}, {'team1': 'Hoffenheim', 'team2': 'Dortmund', 'odds': [3.55, 4.0, 1.76]}, {'team1': 'Ein.Francfort', 'team2': 'RB Leipzig', 'odds': [2.15, 3.7, 2.7]}, {'team1': 'Bochum', 'team2': 'Union Berlin', 'odds': [2.25, 3.25, 2.75]}, {'team1': 'Werder Brême', 'team2': 'St Pauli', 'odds': [1.9, 3.45, 3.4]}]
+netbet: [{'team1': 'Augsbourg', 'team2': 'Eintracht Francfort', 'odds': [2.52, 3.3, 2.72]}, {'team1': 'Borussia Dortmund', 'team2': 'Borussia Mönchengladbach', 'odds': [1.37, 5.5, 6.75]}, {'team1': 'St. Pauli', 'team2': 'Bayer Leverkusen', 'odds': [5.3, 3.8, 1.63]}, {'team1': 'Stuttgart', 'team2': 'Heidenheim', 'odds': [1.5, 4.5, 5.4]}]
+unibet: [{'team1': 'Augsbourg', 'team2': 'Eintracht Francfort', 'odds': [2.48, 3.38, 2.78]}, {'team1': 'Dortmund', 'team2': "Borussia M'Gladbach", 'odds': [1.37, 5.5, 6.7]}, {'team1': 'FC St. Pauli', 'team2': 'Bayer Leverkusen', 'odds': [5.2, 3.8, 1.65]}, {'team1': 'Stuttgart', 'team2': 'FC Heidenheim 1846', 'odds': [1.47, 4.4, 5.25]}, {'team1': 'Bayer Leverkusen', 'team2': 'Augsbourg', 'odds': [1.31, 4.7, 8.15]}, {'team1': 'Bayern Munich', 'team2': 'Mayence', 'odds': [1.19, 6.2, 10.2]}, {'team1': 'Hoffenheim', 'team2': 'Dortmund', 'odds': [3.5, 3.92, 1.79]}, {'team1': 'Holstein Kiel', 'team2': "Borussia M'Gladbach", 'odds': [2.85, 3.68, 2.1]}, {'team1': 'Wolfsbourg', 'team2': 'Fribourg', 'odds': [2.12, 3.48, 2.95]}, {'team1': 'Eintracht Francfort', 'team2': 'RB Leipzig', 'odds': [2.21, 3.68, 2.65]}, {'team1': 'Bochum', 'team2': 'Union Berlin', 'odds': [2.25, 3.32, 2.82]}, {'team1': 'Werder Brême', 'team2': 'FC St. Pauli', 'odds': [1.9, 3.5, 3.48]}]
+-- Competition: {'sport': 'football', 'competition': 'bundesliga'} --
+-- Arbitrage on: 
+winamax   : Augsbourg - Eintracht Francfort @2.5/3.35/2.75
+betclic   : Augsbourg - Eintracht Francfort @2.49/3.37/2.76
+zebet     : Augsburg - Ein.Francfort @2.45/3.4/2.8
+netbet    : Augsbourg - Eintracht Francfort @2.52/3.3/2.72
+unibet    : Augsbourg - Eintracht Francfort @2.48/3.38/2.78
+(netbet    /zebet     /zebet     ) -4.81%
+-- Arbitrage on: 
+winamax   : Borussia Dortmund - Borussia M'Gladbach @1.38/5.5/6.5
+betclic   : Borussia Dortmund - Borussia M'gladbach @1.38/5.4/6.6
+zebet     : Dortmund - M'Gladbach @1.36/5.6/6.8
+netbet    : Borussia Dortmund - Borussia Mönchengladbach @1.37/5.5/6.75
+unibet    : Dortmund - Borussia M'Gladbach @1.37/5.5/6.7
+(winamax   /zebet     /zebet     ) -5.03%
+-- Arbitrage on: 
+winamax   : St. Pauli - Bayer Leverkusen @5.3/3.85/1.64
+betclic   : FC St. Pauli - Bayer Leverkusen @5.25/3.8/1.65
+zebet     : St Pauli - Leverkusen @5.3/3.85/1.64
+netbet    : St. Pauli - Bayer Leverkusen @5.3/3.8/1.63
+unibet    : FC St. Pauli - Bayer Leverkusen @5.2/3.8/1.65
+(winamax   /winamax   /betclic   ) -5.45%
+-- Arbitrage on: 
+winamax   : VfB Stuttgart - Heidenheim @1.5/4.4/5.3
+betclic   : Stuttgart - Heidenheim @1.47/4.37/5.25
+zebet     : Stuttgart - FC Heidenheim @1.46/4.55/5.4
+netbet    : Stuttgart - Heidenheim @1.5/4.5/5.4
+unibet    : Stuttgart - FC Heidenheim 1846 @1.47/4.4/5.25
+(winamax   /zebet     /zebet     ) -7.16%
+-- Arbitrage on: 
+winamax   : Bayern Munich - Mayence @1.21/6.25/10.0
+betclic   : Bayern Munich - Mayence @1.19/6.15/10
+zebet     : Bayern Munich - Mayence @1.18/6.4/10.5
+unibet    : Bayern Munich - Mayence @1.19/6.2/10.2
+(winamax   /zebet     /zebet     ) -7.79%
+-- Arbitrage on: 
+winamax   : Bayer Leverkusen - Augsbourg @1.33/4.7/8.0
+betclic   : Bayer Leverkusen - Augsbourg @1.31/4.68/8.1
+zebet     : Leverkusen - Augsburg @1.29/4.85/8.4
+unibet    : Bayer Leverkusen - Augsbourg @1.31/4.7/8.15
+(winamax   /zebet     /zebet     ) -7.71%
+-- Arbitrage on: 
+winamax   : TSG Hoffenheim - Borussia Dortmund @3.5/3.95/1.82
+betclic   : Hoffenheim - Borussia Dortmund @3.48/3.9/1.8
+zebet     : Hoffenheim - Dortmund @3.55/4.0/1.76
+unibet    : Hoffenheim - Dortmund @3.5/3.92/1.79
+(zebet     /zebet     /winamax   ) -8.11%
+-- Arbitrage on: 
+winamax   : Holstein Kiel - Borussia M'Gladbach @2.85/3.7/2.15
+betclic   : Holstein Kiel - Borussia M'gladbach @2.83/3.67/2.11
+zebet     : Holstein Kiel - M'Gladbach @2.9/3.75/2.05
+unibet    : Holstein Kiel - Borussia M'Gladbach @2.85/3.68/2.1
+(zebet     /zebet     /winamax   ) -7.66%
+-- Arbitrage on: 
+winamax   : Wolfsbourg - Fribourg @2.15/3.5/2.95
+betclic   : Wolfsburg - Fribourg @2.13/3.48/2.93
+zebet     : Wolfsburg - Fribourg @2.05/3.55/3.0
+unibet    : Wolfsbourg - Fribourg @2.12/3.48/2.95
+(winamax   /zebet     /zebet     ) -8.01%
+-- Arbitrage on: 
+winamax   : Eintracht Francfort - RB Leipzig @2.25/3.65/2.65
+betclic   : Eintracht Francfort - RB Leipzig @2.22/3.65/2.66
+zebet     : Ein.Francfort - RB Leipzig @2.15/3.7/2.7
+unibet    : Eintracht Francfort - RB Leipzig @2.21/3.68/2.65
+(winamax   /zebet     /zebet     ) -8.51%
+-- Arbitrage on: 
+winamax   : Bochum - Union Berlin @2.3/3.35/2.8
+betclic   : Bochum - Union Berlin @2.28/3.25/2.75
+zebet     : Bochum - Union Berlin @2.25/3.25/2.75
+unibet    : Bochum - Union Berlin @2.25/3.32/2.82
+(winamax   /winamax   /unibet    ) -8.79%
+-- Arbitrage on: 
+winamax   : Werder Brême - St. Pauli @1.94/3.5/3.5
+betclic   : Werder Brême - FC St. Pauli @1.91/3.42/3.4
+zebet     : Werder Brême - St Pauli @1.9/3.45/3.4
+unibet    : Werder Brême - FC St. Pauli @1.9/3.5/3.48
+(winamax   /winamax   /winamax   ) -8.69%
+winamax: [{'team1': 'Ipswich', 'team2': 'Arsenal', 'odds': [8.0, 4.7, 1.39]}, {'team1': 'Manchester United', 'team2': 'Wolverhampton', 'odds': [2.4, 3.3, 3.0]}, {'team1': 'Fulham', 'team2': 'Chelsea', 'odds': [2.9, 3.45, 2.35]}, {'team1': 'Leicester', 'team2': 'Liverpool', 'odds': [12.0, 7.0, 1.2]}, {'team1': 'Tottenham', 'team2': 'Nottingham Forest', 'odds': [2.5, 3.6, 2.6]}, {'team1': 'Manchester City', 'team2': 'Aston Villa', 'odds': [1.84, 3.85, 3.55]}, {'team1': 'Arsenal', 'team2': 'Crystal Palace', 'odds': [1.46, 4.2, 6.0]}, {'team1': 'Chelsea', 'team2': 'Everton', 'odds': [1.66, 3.65, 4.7]}, {'team1': 'Newcastle', 'team2': 'Ipswich', 'odds': [1.21, 6.0, 10.0]}, {'team1': 'Southampton', 'team2': 'Fulham', 'odds': [5.1, 4.0, 1.56]}, {'team1': 'Wolverhampton', 'team2': 'Leicester', 'odds': [1.58, 3.9, 5.1]}, {'team1': 'Brighton', 'team2': 'West Ham', 'odds': [1.62, 3.95, 4.7]}, {'team1': 'Bournemouth', 'team2': 'Manchester United', 'odds': [1.72, 3.85, 4.0]}, {'team1': 'Liverpool', 'team2': 'Tottenham', 'odds': [1.32, 5.4, 7.0]}, {'team1': 'Nottingham Forest', 'team2': 'Brentford', 'odds': [2.0, 3.25, 2.85]}]
+pmu: []
+betclic: [{'team1': 'Fulham', 'team2': 'Chelsea', 'odds': [2.87, 3.5, 2.35]}, {'team1': 'Ipswich', 'team2': 'Arsenal', 'odds': [7.35, 4.73, 1.4]}, {'team1': 'Manchester United', 'team2': 'Wolverhampton', 'odds': [2.35, 3.37, 2.96]}, {'team1': 'Leicester', 'team2': 'Liverpool', 'odds': [12, 6.95, 1.2]}, {'team1': 'Tottenham', 'team2': 'Nottingham Forest', 'odds': [2.48, 3.58, 2.57]}, {'team1': 'Manchester City', 'team2': 'Aston Villa', 'odds': [1.84, 3.95, 3.63]}, {'team1': 'Arsenal', 'team2': 'Crystal Palace', 'odds': [1.46, 4.25, 6.3]}, {'team1': 'Chelsea', 'team2': 'Everton', 'odds': [1.63, 3.63, 4.7]}, {'team1': 'Newcastle', 'team2': 'Ipswich', 'odds': [1.21, 5.75, 9.75]}, {'team1': 'Wolverhampton', 'team2': 'Leicester', 'odds': [1.55, 3.87, 5.1]}, {'team1': 'Brighton', 'team2': 'West Ham', 'odds': [1.59, 3.92, 4.63]}, {'team1': 'Southampton', 'team2': 'Fulham', 'odds': [5.05, 4, 1.54]}, {'team1': 'Bournemouth', 'team2': 'Manchester United', 'odds': [1.7, 3.75, 3.9]}, {'team1': 'Liverpool', 'team2': 'Tottenham', 'odds': [1.31, 5.2, 6.6]}, {'team1': 'Nottingham Forest', 'team2': 'Brentford', 'odds': [2.06, 3.3, 2.92]}]
+zebet: [{'team1': 'Ipswich', 'team2': 'Arsenal', 'odds': [7.5, 4.85, 1.39]}, {'team1': 'Man. United', 'team2': 'Wolverhampton', 'odds': [2.35, 3.35, 2.95]}, {'team1': 'Fulham', 'team2': 'Chelsea', 'odds': [2.9, 3.55, 2.3]}, {'team1': 'Leicester', 'team2': 'Liverpool', 'odds': [12.0, 6.9, 1.2]}, {'team1': 'Tottenham', 'team2': 'Nottingham F.', 'odds': [2.45, 3.65, 2.6]}, {'team1': 'Man. City', 'team2': 'Aston Villa', 'odds': [1.8, 4.0, 3.65]}, {'team1': 'Arsenal', 'team2': 'Crystal Palace', 'odds': [1.44, 4.35, 6.5]}, {'team1': 'Chelsea', 'team2': 'Everton', 'odds': [1.61, 3.7, 4.8]}, {'team1': 'Southampton', 'team2': 'Fulham', 'odds': [5.2, 4.1, 1.51]}, {'team1': 'Newcastle', 'team2': 'Ipswich', 'odds': [1.2, 6.0, 10.0]}, {'team1': 'Wolverhampton', 'team2': 'Leicester', 'odds': [1.53, 3.95, 5.2]}, {'team1': 'Brighton Hove', 'team2': 'West Ham', 'odds': [1.56, 4.0, 4.75]}, {'team1': 'Bournemouth', 'team2': 'Man. United', 'odds': [1.69, 3.75, 3.95]}, {'team1': 'Liverpool', 'team2': 'Tottenham', 'odds': [1.3, 5.2, 6.7]}, {'team1': 'Nottingham F.', 'team2': 'Brentford', 'odds': [2.05, 3.3, 2.95]}]
+Cannot crawl netbet: Traceback (most recent call last):
+  File "d:\Users\Romeo\Documents\VSCode\Projet\src\Arbitrage\main.py", line 54, in <module>
+    bookmakers['netbet'] = netbet.get_games(competition)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Users\Romeo\Documents\VSCode\Projet\src\Arbitrage\bookmakers\netbet.py", line 68, in get_games
+    o = float(od.text)
+        ^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '\n    -\n  '
+
+unibet: [{'team1': 'Fulham', 'team2': 'Chelsea', 'odds': [2.9, 3.55, 2.3]}, {'team1': 'Ipswich Town', 'team2': 'Arsenal', 'odds': [7.55, 4.85, 1.39]}, {'team1': 'Manchester United', 'team2': 'Wolverhampton', 'odds': [2.33, 3.38, 2.98]}, {'team1': 'Leicester', 'team2': 'Liverpool', 'odds': [12.2, 7.1, 1.19]}, {'team1': 'Tottenham', 'team2': 'Nottingham Forest', 'odds': [2.49, 3.65, 2.6]}, {'team1': 'Manchester City', 'team2': 'Aston Villa', 'odds': [1.83, 3.98, 3.65]}, {'team1': 'Arsenal', 'team2': 'Crystal Palace', 'odds': [1.46, 4.35, 6.45]}, {'team1': 'Chelsea', 'team2': 'Everton', 'odds': [1.62, 3.65, 4.75]}, {'team1': 'Brighton', 'team2': 'West Ham', 'odds': [1.58, 3.95, 4.7]}, {'team1': 'Newcastle', 'team2': 'Ipswich Town', 'odds': [1.21, 5.85, 9.9]}, {'team1': 'Southampton', 'team2': 'Fulham', 'odds': [5.1, 4.05, 1.53]}, {'team1': 'Wolverhampton', 'team2': 'Leicester', 'odds': [1.54, 3.9, 5.15]}, {'team1': 'Bournemouth', 'team2': 'Manchester United', 'odds': [1.69, 3.85, 4.05]}, {'team1': 'Liverpool', 'team2': 'Tottenham', 'odds': [1.3, 5.4, 7.0]}, {'team1': 'Nottingham Forest', 'team2': 'Brentford', 'odds': [2.07, 3.45, 3.05]}]
+-- Competition: {'sport': 'football', 'competition': 'premier-league'} --
+-- Arbitrage on: 
+winamax   : Ipswich - Arsenal @8.0/4.7/1.39
+betclic   : Ipswich - Arsenal @7.35/4.73/1.4
+zebet     : Ipswich - Arsenal @7.5/4.85/1.39
+unibet    : Ipswich Town - Arsenal @7.55/4.85/1.39
+(winamax   /zebet     /betclic   ) -4.55%
+-- Arbitrage on: 
+winamax   : Manchester United - Wolverhampton @2.4/3.3/3.0
+betclic   : Manchester United - Wolverhampton @2.35/3.37/2.96
+zebet     : Man. United - Wolverhampton @2.35/3.35/2.95
+unibet    : Manchester United - Wolverhampton @2.33/3.38/2.98
+(winamax   /unibet    /winamax   ) -4.59%
+-- Arbitrage on: 
+winamax   : Fulham - Chelsea @2.9/3.45/2.35
+betclic   : Fulham - Chelsea @2.87/3.5/2.35
+zebet     : Fulham - Chelsea @2.9/3.55/2.3
+unibet    : Fulham - Chelsea @2.9/3.55/2.3
+(winamax   /zebet     /winamax   ) -5.20%
+-- Arbitrage on: 
+winamax   : Leicester - Liverpool @12.0/7.0/1.2
+betclic   : Leicester - Liverpool @12/6.95/1.2
+zebet     : Leicester - Liverpool @12.0/6.9/1.2
+unibet    : Leicester - Liverpool @12.2/7.1/1.19
+(unibet    /unibet    /winamax   ) -5.61%
+-- Arbitrage on: 
+winamax   : Tottenham - Nottingham Forest @2.5/3.6/2.6
+betclic   : Tottenham - Nottingham Forest @2.48/3.58/2.57
+zebet     : Tottenham - Nottingham F. @2.45/3.65/2.6
+unibet    : Tottenham - Nottingham Forest @2.49/3.65/2.6
+(winamax   /zebet     /winamax   ) -5.86%
+-- Arbitrage on: 
+winamax   : Manchester City - Aston Villa @1.84/3.85/3.55
+betclic   : Manchester City - Aston Villa @1.84/3.95/3.63
+zebet     : Man. City - Aston Villa @1.8/4.0/3.65
+unibet    : Manchester City - Aston Villa @1.83/3.98/3.65
+(winamax   /zebet     /zebet     ) -6.75%
+-- Arbitrage on: 
+winamax   : Arsenal - Crystal Palace @1.46/4.2/6.0
+betclic   : Arsenal - Crystal Palace @1.46/4.25/6.3
+zebet     : Arsenal - Crystal Palace @1.44/4.35/6.5
+unibet    : Arsenal - Crystal Palace @1.46/4.35/6.45
+(winamax   /zebet     /zebet     ) -6.87%
+-- Arbitrage on: 
+winamax   : Chelsea - Everton @1.66/3.65/4.7
+betclic   : Chelsea - Everton @1.63/3.63/4.7
+zebet     : Chelsea - Everton @1.61/3.7/4.8
+unibet    : Chelsea - Everton @1.62/3.65/4.75
+(winamax   /zebet     /zebet     ) -8.10%
+-- Arbitrage on: 
+winamax   : Newcastle - Ipswich @1.21/6.0/10.0
+betclic   : Newcastle - Ipswich @1.21/5.75/9.75
+zebet     : Newcastle - Ipswich @1.2/6.0/10.0
+unibet    : Newcastle - Ipswich Town @1.21/5.85/9.9
+(winamax   /winamax   /winamax   ) -9.31%
+-- Arbitrage on: 
+winamax   : Southampton - Fulham @5.1/4.0/1.56
+betclic   : Southampton - Fulham @5.05/4/1.54
+zebet     : Southampton - Fulham @5.2/4.1/1.51
+unibet    : Southampton - Fulham @5.1/4.05/1.53
+(zebet     /zebet     /winamax   ) -7.72%
+-- Arbitrage on: 
+winamax   : Wolverhampton - Leicester @1.58/3.9/5.1
+betclic   : Wolverhampton - Leicester @1.55/3.87/5.1
+zebet     : Wolverhampton - Leicester @1.53/3.95/5.2
+unibet    : Wolverhampton - Leicester @1.54/3.9/5.15
+(winamax   /zebet     /zebet     ) -7.84%
+-- Arbitrage on: 
+winamax   : Brighton - West Ham @1.62/3.95/4.7
+betclic   : Brighton - West Ham @1.59/3.92/4.63
+zebet     : Brighton Hove - West Ham @1.56/4.0/4.75
+unibet    : Brighton - West Ham @1.58/3.95/4.7
+(winamax   /zebet     /zebet     ) -7.78%
+-- Arbitrage on: 
+winamax   : Bournemouth - Manchester United @1.72/3.85/4.0
+betclic   : Bournemouth - Manchester United @1.7/3.75/3.9
+zebet     : Bournemouth - Man. United @1.69/3.75/3.95
+unibet    : Bournemouth - Manchester United @1.69/3.85/4.05
+(winamax   /winamax   /unibet    ) -8.80%
+-- Arbitrage on: 
+winamax   : Liverpool - Tottenham @1.32/5.4/7.0
+betclic   : Liverpool - Tottenham @1.31/5.2/6.6
+zebet     : Liverpool - Tottenham @1.3/5.2/6.7
+unibet    : Liverpool - Tottenham @1.3/5.4/7.0
+(winamax   /winamax   /winamax   ) -8.56%
+-- Arbitrage on: 
+winamax   : Nottingham Forest - Brentford @2.0/3.25/2.85
+betclic   : Nottingham Forest - Brentford @2.06/3.3/2.92
+zebet     : Nottingham F. - Brentford @2.05/3.3/2.95
+unibet    : Nottingham Forest - Brentford @2.07/3.45/3.05
+(unibet    /unibet    /unibet    ) -10.08%
+winamax: [{'team1': 'Empoli', 'team2': 'Venise', 'odds': [2.25, 3.0, 3.55]}, {'team1': 'Bologne', 'team2': 'Inter Milan', 'odds': [3.25, 3.15, 2.3]}, {'team1': 'Milan AC', 'team2': 'Atalanta Bergame', 'odds': [2.55, 3.5, 2.6]}, {'team1': 'Torino', 'team2': 'Udinese', 'odds': [2.4, 2.9, 3.35]}, {'team1': 'Cagliari', 'team2': 'Fiorentina', 'odds': [3.05, 3.1, 2.45]}, {'team1': 'Genoa', 'team2': 'Lazio Rome', 'odds': [3.4, 3.15, 2.25]}, {'team1': 'Parme', 'team2': 'Juventus Turin', 'odds': [4.6, 3.6, 1.78]}, {'team1': 'Atalanta Bergame', 'team2': 'Lecce', 'odds': [1.29, 5.2, 8.5]}, {'team1': 'Côme', 'team2': 'Genoa', 'odds': [1.9, 3.2, 4.0]}, {'team1': 'Inter Milan', 'team2': 'AS Rome', 'odds': [1.68, 3.7, 4.5]}, {'team1': 'Lazio Rome', 'team2': 'Parme', 'odds': [1.52, 4.1, 5.4]}, {'team1': 'Venise', 'team2': 'Milan AC', 'odds': [4.6, 3.95, 1.62]}, {'team1': 'Fiorentina', 'team2': 'Empoli', 'odds': [1.66, 3.55, 5.0]}, {'team1': 'Juventus Turin', 'team2': 'Monza', 'odds': [1.18, 6.0, 13.0]}, {'team1': 'Naples', 'team2': 'Torino', 'odds': [1.46, 4.0, 6.5]}, {'team1': 'Udinese', 'team2': 'Bologne', 'odds': [4.0, 3.2, 1.9]}, {'team1': 'Hellas Vérone', 'team2': 'Cagliari', 'odds': [2.45, 2.9, 2.95]}]
+pmu: []
+betclic: [{'team1': 'Empoli', 'team2': 'Venezia', 'odds': [2.21, 3.05, 3.58]}, {'team1': 'Bologne', 'team2': 'Inter Milan', 'odds': [3.25, 3.13, 2.31]}, {'team1': 'Milan AC', 'team2': 'Atalanta', 'odds': [2.55, 3.5, 2.62]}, {'team1': 'Torino', 'team2': 'Udinese', 'odds': [2.39, 2.92, 3.33]}, {'team1': 'Cagliari', 'team2': 'Fiorentina', 'odds': [3.02, 3.08, 2.41]}, {'team1': 'Genoa', 'team2': 'Lazio', 'odds': [3.37, 3.1, 2.21]}, {'team1': 'Parme', 'team2': 'Juventus', 'odds': [4.53, 3.58, 1.75]}, {'team1': 'Atalanta', 'team2': 'Lecce', 'odds': [1.27, 5.1, 8.5]}, {'team1': 'Côme', 'team2': 'Genoa', 'odds': [1.86, 3.2, 4.02]}, {'team1': 'Inter Milan', 'team2': 'Roma', 'odds': [1.65, 3.67, 4.53]}, {'team1': 'Lazio', 'team2': 'Parme', 'odds': [1.49, 4.1, 5.35]}, {'team1': 'Venezia', 'team2': 'Milan AC', 'odds': [4.47, 3.8, 1.6]}, {'team1': 'Fiorentina', 'team2': 'Empoli', 'odds': [1.63, 3.45, 4.82]}, {'team1': 'Juventus', 'team2': 'Monza', 'odds': [1.17, 5.75, 12.25]}, {'team1': 'Naples', 'team2': 'Torino', 'odds': [1.44, 3.9, 6.3]}, {'team1': 'Udinese', 'team2': 'Bologne', 'odds': [3.93, 3.13, 1.86]}, {'team1': 'Hellas Vérone', 'team2': 'Cagliari', 'odds': [2.4, 2.86, 2.91]}]
+zebet: [{'team1': 'Empoli', 'team2': 'Venezia FC', 'odds': [2.2, 3.05, 3.6]}, {'team1': 'Bologne', 'team2': 'Inter Milan', 'odds': [3.3, 3.15, 2.3]}, {'team1': 'Milan AC', 'team2': 'Atalanta', 'odds': [2.5, 3.55, 2.65]}, {'team1': 'Torino', 'team2': 'Udinese', 'odds': [2.35, 2.95, 3.4]}, {'team1': 'Cagliari', 'team2': 'Fiorentina', 'odds': [3.05, 3.15, 2.35]}, {'team1': 'Genoa', 'team2': 'Lazio Rome', 'odds': [3.45, 3.15, 2.15]}, {'team1': 'Parme', 'team2': 'Juventus Turin', 'odds': [4.6, 3.65, 1.73]}, {'team1': 'Atalanta', 'team2': 'Lecce', 'odds': [1.26, 5.4, 9.0]}, {'team1': 'Como 1907', 'team2': 'Genoa', 'odds': [1.82, 3.25, 4.1]}, {'team1': 'Inter Milan', 'team2': 'AS Rome', 'odds': [1.62, 3.75, 4.65]}, {'team1': 'Lazio Rome', 'team2': 'Parme', 'odds': [1.47, 4.2, 5.5]}, {'team1': 'Venezia FC', 'team2': 'Milan AC', 'odds': [4.5, 3.85, 1.59]}, {'team1': 'Fiorentina', 'team2': 'Empoli', 'odds': [1.62, 3.45, 4.85]}, {'team1': 'Juventus Turin', 'team2': 'AC Monza', 'odds': [1.17, 5.8, 12.5]}, {'team1': 'Naples', 'team2': 'Torino', 'odds': [1.43, 3.95, 6.4]}, {'team1': 'Udinese', 'team2': 'Bologne', 'odds': [3.95, 3.15, 1.85]}, {'team1': 'Hellas Vérone', 'team2': 'Cagliari', 'odds': [2.4, 2.9, 2.9]}]
+netbet: [{'team1': 'Inter Milan', 'team2': 'Milan AC', 'odds': [1.7, 3.35, 3.8]}, {'team1': 'Bologne', 'team2': 'Empoli', 'odds': [1.33, 3.85, 7.0]}]
+unibet: [{'team1': 'Empoli', 'team2': 'Venise', 'odds': [2.2, 3.05, 3.6]}, {'team1': 'Bologne', 'team2': 'Inter Milan', 'odds': [3.28, 3.15, 2.29]}, {'team1': 'Milan AC', 'team2': 'Atalanta Bergame', 'odds': [2.52, 3.52, 2.65]}, {'team1': 'Torino', 'team2': 'Udinese', 'odds': [2.34, 2.92, 3.32]}, {'team1': 'Cagliari', 'team2': 'Fiorentina', 'odds': [3.05, 3.12, 2.37]}, {'team1': 'Genoa', 'team2': 'Lazio Rome', 'odds': [3.4, 3.15, 2.19]}, {'team1': 'Parme', 'team2': 'Juventus Turin', 'odds': [4.6, 3.62, 1.74]}, {'team1': 'Atalanta Bergame', 'team2': 'Lecce', 'odds': [1.27, 5.1, 8.5]}, {'team1': 'Côme', 'team2': 'Genoa', 'odds': [1.86, 3.2, 4.0]}, {'team1': 'Inter Milan', 'team2': 'AS Rome', 'odds': [1.65, 3.65, 4.5]}, {'team1': 'Lazio Rome', 'team2': 'Parme', 'odds': [1.5, 4.1, 5.3]}, {'team1': 'Venise', 'team2': 'Milan AC', 'odds': [4.55, 3.88, 1.6]}, {'team1': 'Fiorentina', 'team2': 'Empoli', 'odds': [1.63, 3.52, 4.9]}, {'team1': 'Juventus Turin', 'team2': 'AC Monza', 'odds': [1.17, 6.0, 12.8]}, {'team1': 'Naples', 'team2': 'Torino', 'odds': [1.44, 4.0, 6.45]}]
+-- Competition: {'sport': 'football', 'competition': 'serie-a'} --
+-- Arbitrage on: 
+winamax   : Empoli - Venise @2.25/3.0/3.55
+betclic   : Empoli - Venezia @2.21/3.05/3.58
+unibet    : Empoli - Venise @2.2/3.05/3.6
+(winamax   /betclic   /unibet    ) -5.01%
+-- Arbitrage on: 
+winamax   : Bologne - Inter Milan @3.25/3.15/2.3
+betclic   : Bologne - Inter Milan @3.25/3.13/2.31
+zebet     : Bologne - Inter Milan @3.3/3.15/2.3
+unibet    : Bologne - Inter Milan @3.28/3.15/2.29
+(zebet     /winamax   /betclic   ) -5.34%
+-- Arbitrage on: 
+winamax   : Milan AC - Atalanta Bergame @2.55/3.5/2.6
+betclic   : Milan AC - Atalanta @2.55/3.5/2.62
+zebet     : Milan AC - Atalanta @2.5/3.55/2.65
+unibet    : Milan AC - Atalanta Bergame @2.52/3.52/2.65
+(winamax   /zebet     /zebet     ) -5.12%
+-- Arbitrage on: 
+winamax   : Torino - Udinese @2.4/2.9/3.35
+betclic   : Torino - Udinese @2.39/2.92/3.33
+zebet     : Torino - Udinese @2.35/2.95/3.4
+unibet    : Torino - Udinese @2.34/2.92/3.32
+(winamax   /zebet     /zebet     ) -4.98%
+-- Arbitrage on: 
+winamax   : Cagliari - Fiorentina @3.05/3.1/2.45
+betclic   : Cagliari - Fiorentina @3.02/3.08/2.41
+zebet     : Cagliari - Fiorentina @3.05/3.15/2.35
+unibet    : Cagliari - Fiorentina @3.05/3.12/2.37
+(winamax   /zebet     /winamax   ) -5.35%
+-- Arbitrage on: 
+winamax   : Genoa - Lazio Rome @3.4/3.15/2.25
+betclic   : Genoa - Lazio @3.37/3.1/2.21
+zebet     : Genoa - Lazio Rome @3.45/3.15/2.15
+unibet    : Genoa - Lazio Rome @3.4/3.15/2.19
+(zebet     /winamax   /winamax   ) -5.18%
+-- Arbitrage on: 
+winamax   : Parme - Juventus Turin @4.6/3.6/1.78
+betclic   : Parme - Juventus @4.53/3.58/1.75
+zebet     : Parme - Juventus Turin @4.6/3.65/1.73
+unibet    : Parme - Juventus Turin @4.6/3.62/1.74
+(winamax   /zebet     /winamax   ) -5.32%
+-- Arbitrage on: 
+winamax   : Atalanta Bergame - Lecce @1.29/5.2/8.5
+betclic   : Atalanta - Lecce @1.27/5.1/8.5
+zebet     : Atalanta - Lecce @1.26/5.4/9.0
+unibet    : Atalanta Bergame - Lecce @1.27/5.1/8.5
+(winamax   /zebet     /zebet     ) -7.15%
+-- Arbitrage on: 
+winamax   : Côme - Genoa @1.9/3.2/4.0
+betclic   : Côme - Genoa @1.86/3.2/4.02
+unibet    : Côme - Genoa @1.86/3.2/4.0
+(winamax   /winamax   /betclic   ) -8.76%
+-- Arbitrage on: 
+winamax   : Inter Milan - AS Rome @1.68/3.7/4.5
+zebet     : Inter Milan - AS Rome @1.62/3.75/4.65
+unibet    : Inter Milan - AS Rome @1.65/3.65/4.5
+(winamax   /zebet     /zebet     ) -7.70%
+-- Arbitrage on: 
+winamax   : Lazio Rome - Parme @1.52/4.1/5.4
+betclic   : Lazio - Parme @1.49/4.1/5.35
+zebet     : Lazio Rome - Parme @1.47/4.2/5.5
+unibet    : Lazio Rome - Parme @1.5/4.1/5.3
+(winamax   /zebet     /zebet     ) -7.78%
+-- Arbitrage on: 
+winamax   : Venise - Milan AC @4.6/3.95/1.62
+betclic   : Venezia - Milan AC @4.47/3.8/1.6
+unibet    : Venise - Milan AC @4.55/3.88/1.6
+(winamax   /winamax   /winamax   ) -8.78%
+-- Arbitrage on: 
+winamax   : Fiorentina - Empoli @1.66/3.55/5.0
+betclic   : Fiorentina - Empoli @1.63/3.45/4.82
+zebet     : Fiorentina - Empoli @1.62/3.45/4.85
+unibet    : Fiorentina - Empoli @1.63/3.52/4.9
+(winamax   /winamax   /winamax   ) -8.41%
+-- Arbitrage on: 
+winamax   : Juventus Turin - Monza @1.18/6.0/13.0
+betclic   : Juventus - Monza @1.17/5.75/12.25
+zebet     : Juventus Turin - AC Monza @1.17/5.8/12.5
+unibet    : Juventus Turin - AC Monza @1.17/6.0/12.8
+(winamax   /winamax   /winamax   ) -9.10%
+-- Arbitrage on: 
+winamax   : Naples - Torino @1.46/4.0/6.5
+betclic   : Naples - Torino @1.44/3.9/6.3
+zebet     : Naples - Torino @1.43/3.95/6.4
+unibet    : Naples - Torino @1.44/4.0/6.45
+(winamax   /winamax   /winamax   ) -8.88%
+-- Arbitrage on: 
+winamax   : Udinese - Bologne @4.0/3.2/1.9
+betclic   : Udinese - Bologne @3.93/3.13/1.86
+zebet     : Udinese - Bologne @3.95/3.15/1.85
+(winamax   /winamax   /winamax   ) -8.88%
+-- Arbitrage on: 
+winamax   : Hellas Vérone - Cagliari @2.45/2.9/2.95
+betclic   : Hellas Vérone - Cagliari @2.4/2.86/2.91
+zebet     : Hellas Vérone - Cagliari @2.4/2.9/2.9
+(winamax   /winamax   /winamax   ) -9.20%
+winamax: [{'team1': 'Famalicao', 'team2': 'Braga', 'odds': [3.15, 3.15, 1.98]}, {'team1': 'Santa Clara', 'team2': 'FC Arouca', 'odds': [1.92, 3.0, 3.45]}, {'team1': 'Gil Vicente', 'team2': 'Farense', 'odds': [2.05, 2.9, 3.15]}, {'team1': 'CF Estrela Amadora', 'team2': 'FC Porto', 'odds': [5.7, 3.75, 1.42]}, {'team1': 'Moreirense', 'team2': 'Nacional Madeira ', 'odds': [1.96, 2.8, 3.55]}, {'team1': 'Benfica', 'team2': 'AVS Futebol SAD', 'odds': [1.07, 6.75, 17.0]}, {'team1': 'Vitoria Guimaraes', 'team2': 'Rio Ave', 'odds': [1.52, 3.55, 4.8]}, {'team1': 'Boavista', 'team2': 'Sporting Portugal', 'odds': [8.5, 5.0, 1.21]}]
+pmu: []
+betclic: [{'team1': 'Famalicao', 'team2': 'Sporting Braga', 'odds': [3.15, 3.3, 2]}, {'team1': 'Santa Clara', 'team2': 'Arouca', 'odds': [1.86, 3.2, 3.8]}, {'team1': 'Gil Vicente', 'team2': 'Sporting Farense', 'odds': [2.12, 3.07, 3.32]}, {'team1': 'Estrela', 'team2': 'FC Porto', 'odds': [6.2, 4.05, 1.45]}, {'team1': 'Moreirense', 'team2': 'Nacional Madère', 'odds': [2.01, 2.93, 3.68]}, {'team1': 'Vitoria Guimaraes', 'team2': 'Rio Ave FC', 'odds': [1.56, 3.7, 5.1]}, {'team1': 'Benfica', 'team2': 'AVS Futebol SAD', 'odds': [1.08, 8.75, 19.25]}, {'team1': 'Boavista', 'team2': 'Sporting Portugal', 'odds': [9.2, 5.35, 1.23]}]
+zebet: [{'team1': 'Famalicao', 'team2': 'Braga', 'odds': [3.2, 3.2, 1.99]}, {'team1': 'Santa Clara', 'team2': 'Arouca', 'odds': [1.84, 3.05, 3.85]}, {'team1': 'Gil Vicente', 'team2': 'SC Farense', 'odds': [2.1, 2.95, 3.2]}, {'team1': 'CF Estrela', 'team2': 'FC Porto', 'odds': [5.8, 3.85, 1.43]}, {'team1': 'Moreirense', 'team2': 'CD Nacional', 'odds': [1.98, 2.9, 3.6]}, {'team1': 'Benfica', 'team2': 'AVS Futebol', 'odds': [1.07, 7.0, 18.0]}, {'team1': 'Guimaraes', 'team2': 'Rio Ave', 'odds': [1.54, 3.6, 4.95]}, {'team1': 'Boavista FC', 'team2': 'Sporting', 'odds': [8.8, 5.1, 1.22]}]
+netbet: []
+unibet: [{'team1': 'Famalicao', 'team2': 'Sporting Braga', 'odds': [3.18, 3.18, 1.96]}, {'team1': 'Santa Clara', 'team2': 'FC Arouca', 'odds': [1.82, 3.05, 3.8]}, {'team1': 'Gil Vicente FC', 'team2': 'Farense', 'odds': [2.07, 2.95, 3.18]}, {'team1': 'CF Estrela', 'team2': 'FC Porto', 'odds': [5.8, 3.82, 1.42]}, {'team1': 'Moreirense FC', 'team2': 'CD Nacional', 'odds': [1.95, 2.85, 3.58]}, {'team1': 'Benfica', 'team2': 'Avs Futebol Sad', 'odds': [1.07, 6.9, 17.5]}, {'team1': 'Vitoria Guimaraes', 'team2': 'Rio Ave', 'odds': [1.52, 3.58, 4.9]}, {'team1': 'Boavista', 'team2': 'Sporting Portugal', 'odds': [8.7, 5.05, 1.21]}]
+-- Competition: {'sport': 'football', 'competition': 'primeira'} --
+-- Arbitrage on: 
+winamax   : Famalicao - Braga @3.15/3.15/1.98
+zebet     : Famalicao - Braga @3.2/3.2/1.99
+(zebet     /zebet     /zebet     ) -12.75%
+-- Arbitrage on: 
+winamax   : Santa Clara - FC Arouca @1.92/3.0/3.45
+betclic   : Santa Clara - Arouca @1.86/3.2/3.8
+zebet     : Santa Clara - Arouca @1.84/3.05/3.85
+unibet    : Santa Clara - FC Arouca @1.82/3.05/3.8
+(winamax   /betclic   /zebet     ) -9.31%
+-- Arbitrage on: 
+winamax   : Gil Vicente - Farense @2.05/2.9/3.15
+betclic   : Gil Vicente - Sporting Farense @2.12/3.07/3.32
+zebet     : Gil Vicente - SC Farense @2.1/2.95/3.2
+unibet    : Gil Vicente FC - Farense @2.07/2.95/3.18
+(betclic   /betclic   /betclic   ) -9.86%
+-- Arbitrage on: 
+winamax   : CF Estrela Amadora - FC Porto @5.7/3.75/1.42
+zebet     : CF Estrela - FC Porto @5.8/3.85/1.43
+unibet    : CF Estrela - FC Porto @5.8/3.82/1.42
+(zebet     /zebet     /zebet     ) -13.15%
+-- Arbitrage on: 
+winamax   : Moreirense - Nacional Madeira  @1.96/2.8/3.55
+betclic   : Moreirense - Nacional Madère @2.01/2.93/3.68
+(betclic   /betclic   /betclic   ) -11.05%
+-- Arbitrage on: 
+winamax   : Benfica - AVS Futebol SAD @1.07/6.75/17.0
+betclic   : Benfica - AVS Futebol SAD @1.08/8.75/19.25
+zebet     : Benfica - AVS Futebol @1.07/7.0/18.0
+unibet    : Benfica - Avs Futebol Sad @1.07/6.9/17.5
+(betclic   /betclic   /betclic   ) -9.22%
+-- Arbitrage on: 
+winamax   : Vitoria Guimaraes - Rio Ave @1.52/3.55/4.8
+betclic   : Vitoria Guimaraes - Rio Ave FC @1.56/3.7/5.1
+zebet     : Guimaraes - Rio Ave @1.54/3.6/4.95
+unibet    : Vitoria Guimaraes - Rio Ave @1.52/3.58/4.9
+(betclic   /betclic   /betclic   ) -10.74%
+-- Arbitrage on: 
+winamax   : Boavista - Sporting Portugal @8.5/5.0/1.21
+betclic   : Boavista - Sporting Portugal @9.2/5.35/1.23
+zebet     : Boavista FC - Sporting @8.8/5.1/1.22
+unibet    : Boavista - Sporting Portugal @8.7/5.05/1.21
+(betclic   /betclic   /betclic   ) -10.86%
+winamax: [{'team1': 'Grêmio', 'team2': 'Internacional ', 'odds': [2.85, 2.35, 2.65]}, {'team1': 'Juventude RS', 'team2': 'Mirassol', 'odds': [2.05, 2.9, 3.35]}, {'team1': 'Sao Paulo', 'team2': 'Santos', 'odds': [1.94, 2.95, 3.7]}, {'team1': 'Atlético Mineiro', 'team2': 'Botafogo', 'odds': [2.05, 3.0, 3.2]}, {'team1': 'Fluminense', 'team2': 'Vitoria', 'odds': [1.52, 3.5, 5.4]}, {'team1': 'Fortaleza CE', 'team2': 'Palmeiras', 'odds': [3.25, 2.8, 2.15]}, {'team1': 'Bragantino SP', 'team2': 'Cruzeiro', 'odds': [2.05, 3.15, 3.05]}, {'team1': 'Bahia ', 'team2': 'Ceara', 'odds': [1.76, 3.15, 4.1]}, {'team1': 'Internacional ', 'team2': 'Juventude RS', 'odds': [1.36, 3.85, 6.75]}, {'team1': 'Mirassol', 'team2': 'Atlético Mineiro', 'odds': [2.65, 3.0, 2.25]}, {'team1': 'Ceara', 'team2': 'Sao Paulo', 'odds': [2.2, 2.95, 2.75]}, {'team1': 'Sport Recife ', 'team2': 'Fortaleza CE', 'odds': [2.7, 3.1, 2.2]}, {'team1': 'Botafogo', 'team2': 'Fluminense', 'odds': [2.05, 3.1, 2.95]}, {'team1': 'Flamengo', 'team2': 'Corinthians', 'odds': [1.46, 3.45, 5.7]}, {'team1': 'Palmeiras', 'team2': 'Bahia ', 'odds': [1.54, 3.7, 4.4]}, {'team1': 'Cruzeiro', 'team2': 'Vasco da Gama', 'odds': [1.64, 3.45, 4.0]}, {'team1': 'Vitoria', 'team2': 'Grêmio', 'odds': [2.3, 3.0, 2.65]}, {'team1': 'Santos', 'team2': 'Bragantino SP', 'odds': [1.6, 3.05, 5.1]}, {'team1': 'Sao Paulo', 'team2': 'Fortaleza CE', 'odds': [1.78, 3.0, 4.0]}, {'team1': 'Ceara', 'team2': 'Vitoria', 'odds': [1.68, 3.25, 4.0]}, {'team1': 'Fluminense', 'team2': 'Sport Recife ', 'odds': [1.52, 3.35, 5.2]}, {'team1': 'Corinthians', 'team2': 'Internacional ', 'odds': [2.15, 2.8, 3.0]}, {'team1': 'Bahia ', 'team2': 'Botafogo', 'odds': [2.3, 2.85, 2.75]}, {'team1': 'Vasco da Gama', 'team2': 'Palmeiras', 'odds': [3.65, 3.2, 1.78]}, {'team1': 'Grêmio', 'team2': 'Santos', 'odds': [1.7, 3.1, 4.3]}]
+pmu: []
+betclic: [{'team1': 'Gremio RS', 'team2': 'Internacional RS', 'odds': [2.95, 2.4, 2.75]}, {'team1': 'Juventude RS', 'team2': 'Mirassol', 'odds': [2.11, 2.99, 3.43]}, {'team1': 'Sao Paulo SP', 'team2': 'Santos', 'odds': [1.95, 3, 3.77]}, {'team1': 'Atletico Mineiro', 'team2': 'Botafogo', 'odds': [2.11, 3.05, 3.25]}, {'team1': 'Fluminense', 'team2': 'Vitoria BA', 'odds': [1.54, 3.58, 5.55]}, {'team1': 'Fortaleza CE', 'team2': 'Palmeiras', 'odds': [3.32, 2.85, 2.18]}, {'team1': 'Bragantino', 'team2': 'Cruzeiro', 'odds': [2.09, 3.2, 3.13]}, {'team1': 'Bahia Salvador BA', 'team2': 'Ceara CE', 'odds': [1.77, 3.2, 4.27]}, {'team1': 'Internacional RS', 'team2': 'Juventude RS', 'odds': [1.34, 3.8, 6.65]}, {'team1': 'Mirassol', 'team2': 'Atletico Mineiro', 'odds': [2.67, 3.02, 2.21]}, {'team1': 'Ceara CE', 'team2': 'Sao Paulo SP', 'odds': [2.19, 2.94, 2.76]}, {'team1': 'Sport Recife', 'team2': 'Fortaleza CE', 'odds': [2.68, 3.07, 2.17]}, {'team1': 'Botafogo', 'team2': 'Fluminense', 'odds': [2.02, 3.1, 2.93]}, {'team1': 'Flamengo', 'team2': 'Corinthians', 'odds': [1.44, 3.45, 5.65]}, {'team1': 'Palmeiras', 'team2': 'Bahia Salvador BA', 'odds': [1.52, 3.68, 4.35]}, {'team1': 'Cruzeiro', 'team2': 'Vasco da Gama', 'odds': [1.62, 3.42, 4]}, {'team1': 'Vitoria BA', 'team2': 'Gremio RS', 'odds': [2.25, 2.99, 2.62]}, {'team1': 'Santos', 'team2': 'Bragantino', 'odds': [1.58, 3.02, 5.1]}, {'team1': 'Sao Paulo SP', 'team2': 'Fortaleza CE', 'odds': [1.74, 2.91, 3.85]}, {'team1': 'Corinthians', 'team2': 'Internacional RS', 'odds': [2.12, 2.74, 2.91]}, {'team1': 'Fluminense', 'team2': 'Sport Recife', 'odds': [1.5, 3.22, 4.97]}, {'team1': 'Ceara CE', 'team2': 'Vitoria BA', 'odds': [1.66, 3.15, 3.87]}, {'team1': 'Bahia Salvador BA', 'team2': 'Botafogo', 'odds': [2.25, 2.78, 2.66]}, {'team1': 'Vasco da Gama', 'team2': 'Palmeiras', 'odds': [3.5, 3.12, 1.74]}, {'team1': 'Gremio RS', 'team2': 'Santos', 'odds': [1.66, 2.98, 4.13]}, {'team1': 'Cruzeiro', 'team2': 'Flamengo', 'odds': [2.66, 2.78, 2.25]}, {'team1': 'Bragantino', 'team2': 'Mirassol', 'odds': [1.61, 3.07, 4.27]}, {'team1': 'Juventude RS', 'team2': 'Atletico Mineiro', 'odds': [2.78, 2.8, 2.15]}]
+zebet: [{'team1': 'Juventude RS', 'team2': 'Mirassol SP', 'odds': [2.05, 2.95, 3.4]}, {'team1': 'Sao Paulo', 'team2': 'Santos', 'odds': [1.91, 3.0, 3.8]}, {'team1': 'Atletico MG', 'team2': 'Botafogo', 'odds': [2.05, 3.05, 3.25]}, {'team1': 'Fluminense', 'team2': 'Vitoria BA', 'odds': [1.51, 3.6, 5.6]}, {'team1': 'Fortaleza CE', 'team2': 'Palmeiras', 'odds': [3.35, 2.85, 2.15]}, {'team1': 'Bragantino SP', 'team2': 'Cruzeiro', 'odds': [2.05, 3.2, 3.15]}, {'team1': 'Bahia Salvador', 'team2': 'Ceara CE', 'odds': [1.72, 3.2, 4.25]}]
+netbet: []
+unibet: [{'team1': 'EC Juventude', 'team2': 'Mirassol FC SP', 'odds': [2.07, 2.95, 3.38]}, {'team1': 'Atletico Mineiro', 'team2': 'Botafogo', 'odds': [2.08, 3.02, 3.22]}, {'team1': 'Sao Paulo', 'team2': 'Santos', 'odds': [1.93, 2.98, 3.75]}, {'team1': 'Fluminense', 'team2': 'Vitoria BA', 'odds': [1.52, 3.55, 5.5]}, {'team1': 'Fortaleza', 'team2': 'Palmeiras', 'odds': [3.3, 2.82, 2.16]}, {'team1': 'Red Bull Bragantino', 'team2': 'Cruzeiro', 'odds': [2.07, 3.18, 3.1]}, {'team1': 'EC Bahia', 'team2': 'Ceara SC', 'odds': [1.75, 3.15, 4.15]}, {'team1': 'Internacional', 'team2': 'EC Juventude', 'odds': [1.32, 3.72, 6.5]}, {'team1': 'Ceara SC', 'team2': 'Sao Paulo', 'odds': [2.13, 2.9, 2.72]}, {'team1': 'Mirassol FC SP', 'team2': 'Atletico Mineiro', 'odds': [2.65, 2.98, 2.15]}, {'team1': 'Sport Recife', 'team2': 'Fortaleza', 'odds': [2.65, 3.02, 2.12]}, {'team1': 'Botafogo', 'team2': 'Fluminense', 'odds': [1.97, 3.05, 2.9]}, {'team1': 'Flamengo', 'team2': 'Corinthians', 'odds': [1.42, 3.4, 5.55]}, {'team1': 'Cruzeiro', 'team2': 'Vasco da Gama', 'odds': [1.59, 3.35, 3.95]}, {'team1': 'Vitoria BA', 'team2': 'Gremio', 'odds': [2.19, 2.95, 2.6]}]
+-- Competition: {'sport': 'football', 'competition': 'serie-a-brasil'} --
+-- Arbitrage on: 
+winamax   : Grêmio - Internacional  @2.85/2.35/2.65
+betclic   : Gremio RS - Internacional RS @2.95/2.4/2.75
+(betclic   /betclic   /betclic   ) -11.93%
+-- Arbitrage on: 
+winamax   : Juventude RS - Mirassol @2.05/2.9/3.35
+betclic   : Juventude RS - Mirassol @2.11/2.99/3.43
+zebet     : Juventude RS - Mirassol SP @2.05/2.95/3.4
+unibet    : EC Juventude - Mirassol FC SP @2.07/2.95/3.38
+(betclic   /betclic   /betclic   ) -9.99%
+-- Arbitrage on: 
+winamax   : Sao Paulo - Santos @1.94/2.95/3.7
+betclic   : Sao Paulo SP - Santos @1.95/3/3.77
+zebet     : Sao Paulo - Santos @1.91/3.0/3.8
+unibet    : Sao Paulo - Santos @1.93/2.98/3.75
+(betclic   /betclic   /zebet     ) -10.93%
+-- Arbitrage on: 
+winamax   : Atlético Mineiro - Botafogo @2.05/3.0/3.2
+betclic   : Atletico Mineiro - Botafogo @2.11/3.05/3.25
+zebet     : Atletico MG - Botafogo @2.05/3.05/3.25
+unibet    : Atletico Mineiro - Botafogo @2.08/3.02/3.22
+(betclic   /betclic   /betclic   ) -10.95%
+-- Arbitrage on: 
+winamax   : Fluminense - Vitoria @1.52/3.5/5.4
+betclic   : Fluminense - Vitoria BA @1.54/3.58/5.55
+zebet     : Fluminense - Vitoria BA @1.51/3.6/5.6
+unibet    : Fluminense - Vitoria BA @1.52/3.55/5.5
+(betclic   /zebet     /zebet     ) -10.57%
+-- Arbitrage on: 
+winamax   : Fortaleza CE - Palmeiras @3.25/2.8/2.15
+betclic   : Fortaleza CE - Palmeiras @3.32/2.85/2.18
+zebet     : Fortaleza CE - Palmeiras @3.35/2.85/2.15
+unibet    : Fortaleza - Palmeiras @3.3/2.82/2.16
+(zebet     /betclic   /betclic   ) -10.81%
+-- Arbitrage on: 
+winamax   : Bragantino SP - Cruzeiro @2.05/3.15/3.05
+betclic   : Bragantino - Cruzeiro @2.09/3.2/3.13
+zebet     : Bragantino SP - Cruzeiro @2.05/3.2/3.15
+unibet    : Red Bull Bragantino - Cruzeiro @2.07/3.18/3.1
+(betclic   /betclic   /zebet     ) -10.84%
+-- Arbitrage on: 
+winamax   : Bahia  - Ceara @1.76/3.15/4.1
+zebet     : Bahia Salvador - Ceara CE @1.72/3.2/4.25
+unibet    : EC Bahia - Ceara SC @1.75/3.15/4.15
+(winamax   /zebet     /zebet     ) -11.60%
+-- Arbitrage on: 
+winamax   : Internacional  - Juventude RS @1.36/3.85/6.75
+betclic   : Internacional RS - Juventude RS @1.34/3.8/6.65
+unibet    : Internacional - EC Juventude @1.32/3.72/6.5
+(winamax   /winamax   /winamax   ) -14.32%
+-- Arbitrage on: 
+winamax   : Mirassol - Atlético Mineiro @2.65/3.0/2.25
+betclic   : Mirassol - Atletico Mineiro @2.67/3.02/2.21
+unibet    : Mirassol FC SP - Atletico Mineiro @2.65/2.98/2.15
+(betclic   /betclic   /winamax   ) -15.01%
+-- Arbitrage on: 
+winamax   : Ceara - Sao Paulo @2.2/2.95/2.75
+betclic   : Ceara CE - Sao Paulo SP @2.19/2.94/2.76
+unibet    : Ceara SC - Sao Paulo @2.13/2.9/2.72
+(winamax   /winamax   /betclic   ) -15.58%
+-- Arbitrage on: 
+winamax   : Sport Recife  - Fortaleza CE @2.7/3.1/2.2
+betclic   : Sport Recife - Fortaleza CE @2.68/3.07/2.17
+unibet    : Sport Recife - Fortaleza @2.65/3.02/2.12
+(winamax   /winamax   /winamax   ) -14.75%
+-- Arbitrage on: 
+winamax   : Botafogo - Fluminense @2.05/3.1/2.95
+betclic   : Botafogo - Fluminense @2.02/3.1/2.93
+unibet    : Botafogo - Fluminense @1.97/3.05/2.9
+(winamax   /winamax   /winamax   ) -14.94%
+-- Arbitrage on: 
+winamax   : Flamengo - Corinthians @1.46/3.45/5.7
+betclic   : Flamengo - Corinthians @1.44/3.45/5.65
+unibet    : Flamengo - Corinthians @1.42/3.4/5.55
+(winamax   /winamax   /winamax   ) -15.02%
+-- Arbitrage on: 
+winamax   : Palmeiras - Bahia  @1.54/3.7/4.4
+(winamax   /winamax   /winamax   ) -14.69%
+-- Arbitrage on: 
+winamax   : Cruzeiro - Vasco da Gama @1.64/3.45/4.0
+betclic   : Cruzeiro - Vasco da Gama @1.62/3.42/4
+unibet    : Cruzeiro - Vasco da Gama @1.59/3.35/3.95
+(winamax   /winamax   /winamax   ) -14.96%
+-- Arbitrage on: 
+winamax   : Vitoria - Grêmio @2.3/3.0/2.65
+betclic   : Vitoria BA - Gremio RS @2.25/2.99/2.62
+unibet    : Vitoria BA - Gremio @2.19/2.95/2.6
+(winamax   /winamax   /winamax   ) -14.55%
+-- Arbitrage on: 
+winamax   : Santos - Bragantino SP @1.6/3.05/5.1
+betclic   : Santos - Bragantino @1.58/3.02/5.1
+(winamax   /winamax   /winamax   ) -14.89%
+-- Arbitrage on: 
+winamax   : Sao Paulo - Fortaleza CE @1.78/3.0/4.0
+betclic   : Sao Paulo SP - Fortaleza CE @1.74/2.91/3.85
+(winamax   /winamax   /winamax   ) -14.51%
+-- Arbitrage on: 
+winamax   : Ceara - Vitoria @1.68/3.25/4.0
+betclic   : Ceara CE - Vitoria BA @1.66/3.15/3.87
+(winamax   /winamax   /winamax   ) -15.29%
+-- Arbitrage on: 
+winamax   : Fluminense - Sport Recife  @1.52/3.35/5.2
+betclic   : Fluminense - Sport Recife @1.5/3.22/4.97
+(winamax   /winamax   /winamax   ) -14.87%
+-- Arbitrage on: 
+winamax   : Corinthians - Internacional  @2.15/2.8/3.0
+betclic   : Corinthians - Internacional RS @2.12/2.74/2.91
+(winamax   /winamax   /winamax   ) -15.56%
+-- Arbitrage on: 
+winamax   : Bahia  - Botafogo @2.3/2.85/2.75
+(winamax   /winamax   /winamax   ) -14.93%
+-- Arbitrage on: 
+winamax   : Vasco da Gama - Palmeiras @3.65/3.2/1.78
+betclic   : Vasco da Gama - Palmeiras @3.5/3.12/1.74
+(winamax   /winamax   /winamax   ) -14.83%
+-- Arbitrage on: 
+winamax   : Grêmio - Santos @1.7/3.1/4.3
+betclic   : Gremio RS - Santos @1.66/2.98/4.13
+(winamax   /winamax   /winamax   ) -14.34%
+winamax: [{'team1': 'Sydney FC', 'team2': 'Newcastle Jets', 'odds': [1.54, 4.3, 4.2]}, {'team1': 'Central Coast Mariners', 'team2': 'Macarthur FC', 'odds': [2.7, 3.55, 2.15]}, {'team1': 'Brisbane Roar FC', 'team2': 'Adelaide United FC', 'odds': [2.75, 3.55, 2.0]}, {'team1': 'Macarthur FC', 'team2': 'Melbourne Victory FC', 'odds': [2.75, 3.5, 2.0]}, {'team1': 'Brisbane Roar FC', 'team2': 'Wellington Phoenix FC', 'odds': [1.98, 3.15, 3.05]}, {'team1': 'Newcastle Jets', 'team2': 'WS Wanderers', 'odds': [2.65, 3.45, 2.05]}, {'team1': 'Melbourne City', 'team2': 'Adelaide United FC', 'odds': [1.74, 3.4, 3.6]}, {'team1': 'Auckland FC', 'team2': 'Perth Glory FC', 'odds': [1.27, 4.8, 6.75]}, {'team1': 'Western United', 'team2': 'Sydney FC', 'odds': [2.1, 3.6, 2.55]}]
+pmu: []
+betclic: [{'team1': 'Sydney', 'team2': 'Newcastle Jets', 'odds': [1.56, 4.43, 4.3]}, {'team1': 'Central Coast Mariners', 'team2': 'Macarthur FC', 'odds': [2.77, 3.6, 2.05]}, {'team1': 'Brisbane Roar', 'team2': 'Adelaide United', 'odds': [2.84, 3.62, 2.03]}, {'team1': 'Macarthur FC', 'team2': 'Melbourne Victory', 'odds': [2.81, 3.53, 2]}, {'team1': 'Brisbane Roar', 'team2': 'Wellington Phoenix', 'odds': [1.95, 3.15, 3.05]}, {'team1': 'Newcastle Jets', 'team2': 'Western Sydney', 'odds': [2.65, 3.45, 2.03]}, {'team1': 'Melbourne City', 'team2': 'Adelaide United', 'odds': [1.71, 3.4, 3.57]}, {'team1': 'Auckland FC', 'team2': 'Perth Glory', 'odds': [1.25, 4.7, 6.7]}, {'team1': 'Western United FC', 'team2': 'Sydney', 'odds': [2.07, 3.57, 2.53]}]
+zebet: []
+netbet: [{'team1': 'Sydney FC', 'team2': 'Newcastle Jets', 'odds': [1.48, 4.3, 4.2]}, {'team1': 'Central Coast Mariners', 'team2': 'Macarthur Sydney', 'odds': [2.65, 3.5, 2.07]}, {'team1': 'Brisbane Roar Fc', 'team2': 'Adelaide United', 'odds': [2.8, 3.6, 1.95]}]
+unibet: [{'team1': 'Sydney FC', 'team2': 'Newcastle Jets FC', 'odds': [1.55, 4.4, 4.25]}, {'team1': 'Central Coast Mariners', 'team2': 'Macarthur FC', 'odds': [2.75, 3.6, 2.13]}, {'team1': 'Brisbane Roar', 'team2': 'Adelaide United', 'odds': [2.82, 3.58, 1.94]}, {'team1': 'Macarthur FC', 'team2': 'Melbourne Victory', 'odds': [2.75, 3.45, 1.94]}, {'team1': 'Brisbane Roar', 'team2': 'Wellington Phoenix', 'odds': [1.92, 3.12, 3.05]}, {'team1': 'Melbourne City', 'team2': 'Adelaide United', 'odds': [1.68, 3.38, 3.55]}, {'team1': 'Auckland FC', 'team2': 'Perth Glory', 'odds': [1.24, 4.65, 6.65]}, {'team1': 'Western United FC', 'team2': 'Sydney FC', 'odds': [2.03, 3.55, 2.52]}]
+-- Competition: {'sport': 'football', 'competition': 'a-league'} --
+-- Arbitrage on: 
+winamax   : Sydney FC - Newcastle Jets @1.54/4.3/4.2
+betclic   : Sydney - Newcastle Jets @1.56/4.43/4.3
+netbet    : Sydney FC - Newcastle Jets @1.48/4.3/4.2
+unibet    : Sydney FC - Newcastle Jets FC @1.55/4.4/4.25
+(betclic   /betclic   /betclic   ) -9.93%
+-- Arbitrage on: 
+winamax   : Central Coast Mariners - Macarthur FC @2.7/3.55/2.15
+betclic   : Central Coast Mariners - Macarthur FC @2.77/3.6/2.05
+netbet    : Central Coast Mariners - Macarthur Sydney @2.65/3.5/2.07
+unibet    : Central Coast Mariners - Macarthur FC @2.75/3.6/2.13
+(betclic   /betclic   /winamax   ) -10.39%
+-- Arbitrage on: 
+winamax   : Brisbane Roar FC - Adelaide United FC @2.75/3.55/2.0
+betclic   : Brisbane Roar - Adelaide United @2.84/3.62/2.03
+netbet    : Brisbane Roar Fc - Adelaide United @2.8/3.6/1.95
+unibet    : Brisbane Roar - Adelaide United @2.82/3.58/1.94
+(betclic   /betclic   /betclic   ) -12.10%
+-- Arbitrage on: 
+winamax   : Macarthur FC - Melbourne Victory FC @2.75/3.5/2.0
+betclic   : Macarthur FC - Melbourne Victory @2.81/3.53/2
+unibet    : Macarthur FC - Melbourne Victory @2.75/3.45/1.94
+(betclic   /betclic   /winamax   ) -13.92%
+-- Arbitrage on: 
+winamax   : Brisbane Roar FC - Wellington Phoenix FC @1.98/3.15/3.05
+betclic   : Brisbane Roar - Wellington Phoenix @1.95/3.15/3.05
+unibet    : Brisbane Roar - Wellington Phoenix @1.92/3.12/3.05
+(winamax   /winamax   /winamax   ) -15.04%
+-- Arbitrage on: 
+winamax   : Newcastle Jets - WS Wanderers @2.65/3.45/2.05
+(winamax   /winamax   /winamax   ) -15.50%
+-- Arbitrage on: 
+winamax   : Melbourne City - Adelaide United FC @1.74/3.4/3.6
+betclic   : Melbourne City - Adelaide United @1.71/3.4/3.57
+unibet    : Melbourne City - Adelaide United @1.68/3.38/3.55
+(winamax   /winamax   /winamax   ) -14.66%
+-- Arbitrage on: 
+winamax   : Auckland FC - Perth Glory FC @1.27/4.8/6.75
+betclic   : Auckland FC - Perth Glory @1.25/4.7/6.7
+unibet    : Auckland FC - Perth Glory @1.24/4.65/6.65
+(winamax   /winamax   /winamax   ) -14.39%
+-- Arbitrage on: 
+winamax   : Western United - Sydney FC @2.1/3.6/2.55
+betclic   : Western United FC - Sydney @2.07/3.57/2.53
+unibet    : Western United FC - Sydney FC @2.03/3.55/2.52
+(winamax   /winamax   /winamax   ) -14.61%
+winamax: [{'team1': 'Sturm Graz', 'team2': 'Blau-Weiss Linz', 'odds': [1.52, 3.75, 5.2]}, {'team1': 'Wolfsberger AC', 'team2': 'Rapid Vienne', 'odds': [2.4, 3.1, 2.55]}, {'team1': 'Austria Vienne', 'team2': 'Red Bull Salzbourg', 'odds': [2.85, 3.1, 2.2]}, {'team1': 'WSG Swarovski Tirol', 'team2': 'SCR Altach', 'odds': [2.55, 2.95, 2.5]}, {'team1': 'Grazer AK', 'team2': 'TSV Hartberg', 'odds': [2.6, 3.1, 2.25]}, {'team1': 'SK Austria Klagenfurt', 'team2': 'LASK', 'odds': [3.75, 3.4, 1.76]}, {'team1': 'Red Bull Salzbourg', 'team2': 'Wolfsberger AC', 'odds': [1.66, 3.5, 4.0]}, {'team1': 'Blau-Weiss Linz', 'team2': 'Rapid Vienne', 'odds': [3.3, 3.1, 1.92]}, {'team1': 'Austria Vienne', 'team2': 'Sturm Graz', 'odds': [2.4, 3.1, 2.4]}]
+pmu: []
+betclic: [{'team1': 'Wolfsberger', 'team2': 'Rapid Vienne', 'odds': [2.44, 3.22, 2.64]}, {'team1': 'Sturm Graz', 'team2': 'FC Blau-Weiss Linz', 'odds': [1.53, 3.87, 5.3]}, {'team1': 'Austria Vienne', 'team2': 'Salzbourg', 'odds': [2.93, 3.22, 2.24]}, {'team1': 'WSG Swarovski Tirol', 'team2': 'SCR Altach', 'odds': [2.58, 2.99, 2.52]}, {'team1': 'Grazer', 'team2': 'Hartberg', 'odds': [2.66, 3.22, 2.31]}, {'team1': 'Austria Klagenfurt', 'team2': 'LASK Linz', 'odds': [3.78, 3.47, 1.76]}, {'team1': 'FC Blau-Weiss Linz', 'team2': 'Rapid Vienne', 'odds': [3.4, 3.22, 1.94]}, {'team1': 'Salzbourg', 'team2': 'Wolfsberger', 'odds': [1.67, 3.6, 4.13]}, {'team1': 'Austria Vienne', 'team2': 'Sturm Graz', 'odds': [2.49, 3.22, 2.45]}]
+zebet: [{'team1': 'Wolfsberger AC', 'team2': 'Rapid Vienne', 'odds': [2.35, 3.15, 2.6]}, {'team1': 'Sturm Graz', 'team2': 'BW Linz', 'odds': [1.49, 3.8, 5.2]}, {'team1': 'Austria Vienne', 'team2': 'Salzbourg', 'odds': [2.9, 3.15, 2.15]}, {'team1': 'WSG Tirol', 'team2': 'SCR Altach', 'odds': [2.5, 2.9, 2.45]}, {'team1': 'Grazer AK 1902', 'team2': 'TSV Hartberg', 'odds': [2.6, 3.15, 2.25]}, {'team1': 'SK Klagenfurt', 'team2': 'Lask Linz', 'odds': [3.7, 3.35, 1.72]}, {'team1': 'Salzbourg', 'team2': 'Wolfsberger AC', 'odds': [1.63, 3.5, 4.0]}, {'team1': 'BW Linz', 'team2': 'Rapid Vienne', 'odds': [3.3, 3.15, 1.89]}, {'team1': 'Austria Vienne', 'team2': 'Sturm Graz', 'odds': [2.45, 3.15, 2.35]}]
+netbet: []
+unibet: [{'team1': 'Sturm Graz', 'team2': 'Blau-Weiss Linz', 'odds': [1.51, 3.8, 5.2]}, {'team1': 'Wolfsberger AC', 'team2': 'Rapid Vienne', 'odds': [2.38, 3.18, 2.6]}, {'team1': 'Austria Vienne', 'team2': 'RB Salzbourg', 'odds': [2.88, 3.18, 2.19]}, {'team1': 'Grazer AK', 'team2': 'TSV Hartberg', 'odds': [2.58, 3.12, 2.21]}, {'team1': 'WSG Swarovski Tirol', 'team2': 'SCR Altach', 'odds': [2.5, 2.9, 2.41]}, {'team1': 'Austria Klagenfurt', 'team2': 'LASK Linz', 'odds': [3.65, 3.35, 1.7]}, {'team1': 'Blau-Weiss Linz', 'team2': 'Rapid Vienne', 'odds': [3.28, 3.12, 1.87]}, {'team1': 'RB Salzbourg', 'team2': 'Wolfsberger AC', 'odds': [1.61, 3.48, 3.98]}, {'team1': 'Austria Vienne', 'team2': 'Sturm Graz', 'odds': [2.42, 3.12, 2.34]}]
+-- Competition: {'sport': 'football', 'competition': 'bundesliga-austria'} --
+-- Arbitrage on: 
+winamax   : Sturm Graz - Blau-Weiss Linz @1.52/3.75/5.2
+betclic   : Sturm Graz - FC Blau-Weiss Linz @1.53/3.87/5.3
+zebet     : Sturm Graz - BW Linz @1.49/3.8/5.2
+unibet    : Sturm Graz - Blau-Weiss Linz @1.51/3.8/5.2
+(betclic   /betclic   /betclic   ) -10.07%
+-- Arbitrage on: 
+winamax   : Wolfsberger AC - Rapid Vienne @2.4/3.1/2.55
+betclic   : Wolfsberger - Rapid Vienne @2.44/3.22/2.64
+zebet     : Wolfsberger AC - Rapid Vienne @2.35/3.15/2.6
+unibet    : Wolfsberger AC - Rapid Vienne @2.38/3.18/2.6
+(betclic   /betclic   /betclic   ) -9.92%
+-- Arbitrage on: 
+winamax   : Austria Vienne - Red Bull Salzbourg @2.85/3.1/2.2
+betclic   : Austria Vienne - Salzbourg @2.93/3.22/2.24
+zebet     : Austria Vienne - Salzbourg @2.9/3.15/2.15
+unibet    : Austria Vienne - RB Salzbourg @2.88/3.18/2.19
+(betclic   /betclic   /betclic   ) -9.83%
+-- Arbitrage on: 
+winamax   : WSG Swarovski Tirol - SCR Altach @2.55/2.95/2.5
+betclic   : WSG Swarovski Tirol - SCR Altach @2.58/2.99/2.52
+zebet     : WSG Tirol - SCR Altach @2.5/2.9/2.45
+unibet    : WSG Swarovski Tirol - SCR Altach @2.5/2.9/2.41
+(betclic   /betclic   /betclic   ) -11.89%
+-- Arbitrage on: 
+winamax   : Grazer AK - TSV Hartberg @2.6/3.1/2.25
+betclic   : Grazer - Hartberg @2.66/3.22/2.31
+zebet     : Grazer AK 1902 - TSV Hartberg @2.6/3.15/2.25
+unibet    : Grazer AK - TSV Hartberg @2.58/3.12/2.21
+(betclic   /betclic   /betclic   ) -11.94%
+-- Arbitrage on: 
+winamax   : SK Austria Klagenfurt - LASK @3.75/3.4/1.76
+betclic   : Austria Klagenfurt - LASK Linz @3.78/3.47/1.76
+unibet    : Austria Klagenfurt - LASK Linz @3.65/3.35/1.7
+(betclic   /betclic   /winamax   ) -12.09%
+-- Arbitrage on: 
+winamax   : Red Bull Salzbourg - Wolfsberger AC @1.66/3.5/4.0
+betclic   : Salzbourg - Wolfsberger @1.67/3.6/4.13
+zebet     : Salzbourg - Wolfsberger AC @1.63/3.5/4.0
+unibet    : RB Salzbourg - Wolfsberger AC @1.61/3.48/3.98
+(betclic   /betclic   /betclic   ) -11.87%
+-- Arbitrage on: 
+winamax   : Blau-Weiss Linz - Rapid Vienne @3.3/3.1/1.92
+betclic   : FC Blau-Weiss Linz - Rapid Vienne @3.4/3.22/1.94
+zebet     : BW Linz - Rapid Vienne @3.3/3.15/1.89
+unibet    : Blau-Weiss Linz - Rapid Vienne @3.28/3.12/1.87
+(betclic   /betclic   /betclic   ) -12.01%
+-- Arbitrage on: 
+winamax   : Austria Vienne - Sturm Graz @2.4/3.1/2.4
+betclic   : Austria Vienne - Sturm Graz @2.49/3.22/2.45
+zebet     : Austria Vienne - Sturm Graz @2.45/3.15/2.35
+unibet    : Austria Vienne - Sturm Graz @2.42/3.12/2.34
+(betclic   /betclic   /betclic   ) -12.03%
+winamax: [{'team1': 'Anderlecht', 'team2': 'Royal Antwerp FC', 'odds': [1.76, 3.35, 3.65]}, {'team1': 'Genk', 'team2': 'Union Saint-Gilloise', 'odds': [2.25, 3.2, 2.6]}, {'team1': 'La Gantoise', 'team2': 'Club Bruges', 'odds': [4.6, 4.0, 1.52]}, {'team1': 'Dender EH', 'team2': 'Charleroi', 'odds': [2.8, 3.1, 2.15]}, {'team1': 'Malines', 'team2': 'Westerlo', 'odds': [1.86, 3.5, 3.3]}, {'team1': 'Standard Liège', 'team2': 'O-H Louvain', 'odds': [2.2, 3.05, 2.95]}, {'team1': 'Cercle Bruges', 'team2': 'Saint-Trond', 'odds': [1.88, 3.3, 3.2]}]
+pmu: []
+betclic: [{'team1': 'Anderlecht', 'team2': 'Anvers', 'odds': [1.77, 3.6, 3.88]}, {'team1': 'Genk', 'team2': 'Union Saint-Gilloise', 'odds': [2.32, 3.35, 2.7]}, {'team1': 'La Gantoise', 'team2': 'Club Bruges', 'odds': [4.83, 4.13, 1.54]}, {'team1': 'FCV Dender EH', 'team2': 'Royal Charleroi SC', 'odds': [2.89, 3.17, 2.18]}, {'team1': 'Standard Liège', 'team2': 'Oud-Heverlee Leuven', 'odds': [2.18, 3.07, 2.97]}, {'team1': 'Malines', 'team2': 'Westerlo', 'odds': [1.85, 3.55, 3.35]}, {'team1': 'KFCO Beerschot Wilrijk', 'team2': 'Courtrai', 'odds': [4.45, 3.57, 1.58]}, {'team1': 'Cercle Bruges', 'team2': 'Sint-Truidense VV', 'odds': [1.85, 3.28, 3.17]}]
+zebet: [{'team1': 'Anderlecht', 'team2': 'Royal Antwerp', 'odds': [1.75, 3.45, 3.7]}, {'team1': 'RC Genk', 'team2': 'Saint-Gilloise', 'odds': [2.2, 3.3, 2.65]}, {'team1': 'La Gantoise', 'team2': 'Club Bruges', 'odds': [4.7, 4.05, 1.49]}, {'team1': 'FCV Dender EH', 'team2': 'Charleroi', 'odds': [2.8, 3.1, 2.1]}, {'team1': 'Standard Liège', 'team2': 'Louvain', 'odds': [2.1, 3.0, 2.9]}, {'team1': 'KV Mechelen', 'team2': 'Westerlo', 'odds': [1.81, 3.45, 3.25]}, {'team1': 'K Beerschot VA', 'team2': 'KV Kortrijk', 'odds': [4.4, 3.55, 1.56]}]
+netbet: []
+unibet: [{'team1': 'Anderlecht', 'team2': 'Royal Antwerp', 'odds': [1.78, 3.45, 3.72]}, {'team1': 'Genk', 'team2': 'Union Saint-Gilloise', 'odds': [2.27, 3.3, 2.65]}, {'team1': 'La Gantoise', 'team2': 'Club Bruges', 'odds': [4.7, 4.05, 1.51]}, {'team1': 'Dender EH', 'team2': 'SC Charleroi', 'odds': [2.8, 3.05, 2.06]}, {'team1': 'FC Malines', 'team2': 'Westerlo', 'odds': [1.76, 3.42, 3.25]}, {'team1': 'Standard Liège', 'team2': 'Louvain', 'odds': [2.05, 2.98, 2.88]}, {'team1': 'K Beerschot VA', 'team2': 'KV Courtrai', 'odds': [4.3, 3.48, 1.54]}, {'team1': 'Cercle Bruges', 'team2': 'Saint-Trond', 'odds': [1.83, 3.28, 3.15]}]
+-- Competition: {'sport': 'football', 'competition': 'division-1a'} --
+-- Arbitrage on: 
+winamax   : Anderlecht - Royal Antwerp FC @1.76/3.35/3.65
+zebet     : Anderlecht - Royal Antwerp @1.75/3.45/3.7
+unibet    : Anderlecht - Royal Antwerp @1.78/3.45/3.72
+(unibet    /zebet     /unibet    ) -12.05%
+-- Arbitrage on: 
+winamax   : Genk - Union Saint-Gilloise @2.25/3.2/2.6
+betclic   : Genk - Union Saint-Gilloise @2.32/3.35/2.7
+zebet     : RC Genk - Saint-Gilloise @2.2/3.3/2.65
+unibet    : Genk - Union Saint-Gilloise @2.27/3.3/2.65
+(betclic   /betclic   /betclic   ) -9.99%
+-- Arbitrage on: 
+winamax   : La Gantoise - Club Bruges @4.6/4.0/1.52
+betclic   : La Gantoise - Club Bruges @4.83/4.13/1.54
+zebet     : La Gantoise - Club Bruges @4.7/4.05/1.49
+unibet    : La Gantoise - Club Bruges @4.7/4.05/1.51
+(betclic   /betclic   /betclic   ) -9.85%
+-- Arbitrage on: 
+winamax   : Dender EH - Charleroi @2.8/3.1/2.15
+betclic   : FCV Dender EH - Royal Charleroi SC @2.89/3.17/2.18
+zebet     : FCV Dender EH - Charleroi @2.8/3.1/2.1
+unibet    : Dender EH - SC Charleroi @2.8/3.05/2.06
+(betclic   /betclic   /betclic   ) -12.02%
+-- Arbitrage on: 
+winamax   : Malines - Westerlo @1.86/3.5/3.3
+betclic   : Malines - Westerlo @1.85/3.55/3.35
+unibet    : FC Malines - Westerlo @1.76/3.42/3.25
+(winamax   /betclic   /betclic   ) -11.78%
+-- Arbitrage on: 
+winamax   : Standard Liège - O-H Louvain @2.2/3.05/2.95
+zebet     : Standard Liège - Louvain @2.1/3.0/2.9
+unibet    : Standard Liège - Louvain @2.05/2.98/2.88
+(winamax   /winamax   /winamax   ) -12.14%
+-- Arbitrage on: 
+winamax   : Cercle Bruges - Saint-Trond @1.88/3.3/3.2
+unibet    : Cercle Bruges - Saint-Trond @1.83/3.28/3.15
+(winamax   /winamax   /winamax   ) -14.74%
+winamax: [{'team1': 'Istanbul Basaksehir', 'team2': 'Gaziantep Bld Spor', 'odds': [1.64, 3.55, 4.3]}, {'team1': 'Rizespor', 'team2': 'Eyüpspor', 'odds': [2.05, 3.3, 2.95]}, {'team1': 'Fenerbahce', 'team2': 'Kayserispor', 'odds': [1.12, 6.75, 13.5]}, {'team1': 'Alanyaspor', 'team2': 'Samsunspor', 'odds': [2.35, 2.85, 2.75]}, {'team1': 'Besiktas', 'team2': 'Hatayspor', 'odds': [1.16, 5.8, 9.0]}, {'team1': 'Sivasspor', 'team2': 'Antalyaspor', 'odds': [2.0, 3.2, 3.0]}, {'team1': 'Gaziantep Bld Spor', 'team2': 'Fenerbahce', 'odds': [9.0, 4.2, 1.26]}, {'team1': 'BB Bodrumspor', 'team2': 'Samsunspor', 'odds': [2.75, 3.3, 2.05]}, {'team1': 'Konyaspor', 'team2': 'Adana Demirspor', 'odds': [1.17, 5.2, 10.0]}, {'team1': 'Trabzonspor', 'team2': 'Alanyaspor', 'odds': [1.54, 3.7, 4.4]}, {'team1': 'Eyüpspor', 'team2': 'Galatasaray', 'odds': [6.0, 4.3, 1.33]}, {'team1': 'Kayserispor', 'team2': 'Rizespor', 'odds': [2.0, 3.55, 2.7]}, {'team1': 'Göztepe AS', 'team2': 'Istanbul Basaksehir', 'odds': [2.05, 3.5, 2.65]}, {'team1': 'Rizespor', 'team2': 'Gaziantep Bld Spor', 'odds': [2.0, 4.2, 2.4]}, {'team1': 'Alanyaspor', 'team2': 'Kayserispor', 'odds': [2.2, 3.8, 2.3]}, {'team1': 'Galatasaray', 'team2': 'Sivasspor', 'odds': [1.34, 4.5, 5.6]}, {'team1': 'Samsunspor', 'team2': 'Eyüpspor', 'odds': [2.05, 4.1, 2.4]}, {'team1': 'Fenerbahce', 'team2': 'Besiktas', 'odds': [1.7, 3.85, 3.3]}, {'team1': 'Kasimpasa', 'team2': 'Trabzonspor', 'odds': [2.2, 3.9, 2.25]}]
+pmu: []
+betclic: [{'team1': 'Istanbul Basaksehir', 'team2': 'Gazisehir Gaziantep FK', 'odds': [1.66, 3.67, 4.45]}, {'team1': 'Caykur Rizespor', 'team2': 'Eyupspor', 'odds': [2.08, 3.42, 3.07]}, {'team1': 'Fenerbahçe', 'team2': 'Kayserispor', 'odds': [1.11, 7.6, 15]}, {'team1': 'Alanyaspor', 'team2': 'Samsunspor', 'odds': [2.39, 2.95, 2.83]}, {'team1': 'Besiktas', 'team2': 'Hatayspor', 'odds': [1.16, 5.9, 9.2]}, {'team1': 'Sivasspor', 'team2': 'Antalyaspor', 'odds': [1.95, 3.18, 2.99]}, {'team1': 'Bodrum Belediyesi Bodrumspor', 'team2': 'Samsunspor', 'odds': [2.75, 3.28, 2.03]}, {'team1': 'Gazisehir Gaziantep FK', 'team2': 'Fenerbahçe', 'odds': [8.8, 4.12, 1.24]}, {'team1': 'Konyaspor', 'team2': 'Adana Demirspor', 'odds': [1.16, 5.15, 9.95]}, {'team1': 'Trabzonspor', 'team2': 'Alanyaspor', 'odds': [1.52, 3.68, 4.35]}, {'team1': 'Eyupspor', 'team2': 'Galatasaray', 'odds': [6.1, 4.3, 1.31]}, {'team1': 'Kayserispor', 'team2': 'Caykur Rizespor', 'odds': [1.98, 3.53, 2.69]}, {'team1': 'Goztepe', 'team2': 'Istanbul Basaksehir', 'odds': [2.02, 3.4, 2.56]}, {'team1': 'Caykur Rizespor', 'team2': 'Gazisehir Gaziantep FK', 'odds': [1.99, 4.02, 2.34]}, {'team1': 'Alanyaspor', 'team2': 'Kayserispor', 'odds': [2.16, 3.65, 2.26]}, {'team1': 'Galatasaray', 'team2': 'Sivasspor', 'odds': [1.31, 4.33, 5.3]}, {'team1': 'Samsunspor', 'team2': 'Eyupspor', 'odds': [1.99, 4.02, 2.33]}, {'team1': 'Fenerbahçe', 'team2': 'Besiktas', 'odds': [1.67, 3.72, 3.2]}, {'team1': 'Kasimpasa', 'team2': 'Trabzonspor', 'odds': [2.16, 3.77, 2.22]}]
+zebet: [{'team1': 'Basaksehir', 'team2': 'Gaziantep Spor', 'odds': [1.62, 3.65, 4.4]}, {'team1': 'Rizespor', 'team2': 'Eyupspor', 'odds': [2.0, 3.4, 3.05]}, {'team1': 'Fenerbahce', 'team2': 'Kayserispor', 'odds': [1.1, 7.1, 14.0]}, {'team1': 'Alanyaspor', 'team2': 'Samsunspor', 'odds': [2.3, 2.95, 2.8]}, {'team1': 'Besiktas', 'team2': 'Hatayspor', 'odds': [1.14, 5.9, 9.3]}]
+netbet: [{'team1': 'Istanbul Basaksehir', 'team2': 'Gaziantep', 'odds': [1.57, 3.6, 4.5]}, {'team1': 'Caykur Rizespor', 'team2': 'Eyüpspor', 'odds': [2.0, 3.25, 3.05]}, {'team1': 'Fenerbahçe', 'team2': 'Kayserispor', 'odds': [1.06, 7.75, 15.0]}, {'team1': 'Alanyaspor', 'team2': 'Samsunspor', 'odds': [2.35, 2.85, 2.8]}]
+unibet: [{'team1': 'Istanbul Basaksehir', 'team2': 'Gaziantep FK', 'odds': [1.64, 3.65, 4.45]}, {'team1': 'Caykur Rizespor', 'team2': 'Eyupspor', 'odds': [2.01, 3.35, 3.0]}, {'team1': 'Fenerbahce', 'team2': 'Kayserispor', 'odds': [1.1, 6.8, 13.2]}, {'team1': 'Alanyaspor', 'team2': 'Samsunspor', 'odds': [2.33, 2.88, 2.75]}, {'team1': 'Besiktas', 'team2': 'Hatayspor', 'odds': [1.14, 5.5, 8.5]}, {'team1': 'Sivasspor', 'team2': 'Antalyaspor', 'odds': [1.91, 3.15, 2.95]}, {'team1': 'BB Bodrumspor', 'team2': 'Samsunspor', 'odds': [2.72, 3.25, 1.99]}, {'team1': 'Gaziantep FK', 'team2': 'Fenerbahce', 'odds': [8.55, 4.05, 1.23]}, {'team1': 'Konyaspor', 'team2': 'Adana Demirspor', 'odds': [1.14, 5.0, 9.6]}, {'team1': 'Trabzonspor', 'team2': 'Alanyaspor', 'odds': [1.49, 3.62, 4.3]}, {'team1': 'Eyupspor', 'team2': 'Galatasaray', 'odds': [6.0, 4.2, 1.29]}, {'team1': 'Kayserispor', 'team2': 'Caykur Rizespor', 'odds': [1.94, 3.48, 2.65]}, {'team1': 'Goztepe SK', 'team2': 'Istanbul Basaksehir', 'odds': [1.98, 3.45, 2.6]}, {'team1': 'Alanyaspor', 'team2': 'Kayserispor', 'odds': [2.12, 3.7, 2.28]}, {'team1': 'Caykur Rizespor', 'team2': 'Gaziantep FK', 'odds': [1.95, 4.1, 2.37]}]
+-- Competition: {'sport': 'football', 'competition': 'super-lig'} --
+-- Arbitrage on: 
+winamax   : Istanbul Basaksehir - Gaziantep Bld Spor @1.64/3.55/4.3
+zebet     : Basaksehir - Gaziantep Spor @1.62/3.65/4.4
+netbet    : Istanbul Basaksehir - Gaziantep @1.57/3.6/4.5
+unibet    : Istanbul Basaksehir - Gaziantep FK @1.64/3.65/4.45
+(winamax   /zebet     /netbet    ) -10.60%
+-- Arbitrage on: 
+winamax   : Rizespor - Eyüpspor @2.05/3.3/2.95
+betclic   : Caykur Rizespor - Eyupspor @2.08/3.42/3.07
+zebet     : Rizespor - Eyupspor @2.0/3.4/3.05
+netbet    : Caykur Rizespor - Eyüpspor @2.0/3.25/3.05
+unibet    : Caykur Rizespor - Eyupspor @2.01/3.35/3.0
+(betclic   /betclic   /betclic   ) -9.89%
+-- Arbitrage on: 
+winamax   : Fenerbahce - Kayserispor @1.12/6.75/13.5
+betclic   : Fenerbahçe - Kayserispor @1.11/7.6/15
+zebet     : Fenerbahce - Kayserispor @1.1/7.1/14.0
+netbet    : Fenerbahçe - Kayserispor @1.06/7.75/15.0
+unibet    : Fenerbahce - Kayserispor @1.1/6.8/13.2
+(winamax   /netbet    /betclic   ) -8.86%
+-- Arbitrage on: 
+winamax   : Alanyaspor - Samsunspor @2.35/2.85/2.75
+betclic   : Alanyaspor - Samsunspor @2.39/2.95/2.83
+zebet     : Alanyaspor - Samsunspor @2.3/2.95/2.8
+netbet    : Alanyaspor - Samsunspor @2.35/2.85/2.8
+unibet    : Alanyaspor - Samsunspor @2.33/2.88/2.75
+(betclic   /betclic   /betclic   ) -11.07%
+-- Arbitrage on: 
+winamax   : Besiktas - Hatayspor @1.16/5.8/9.0
+betclic   : Besiktas - Hatayspor @1.16/5.9/9.2
+zebet     : Besiktas - Hatayspor @1.14/5.9/9.3
+unibet    : Besiktas - Hatayspor @1.14/5.5/8.5
+(winamax   /betclic   /zebet     ) -13.91%
+-- Arbitrage on: 
+winamax   : Sivasspor - Antalyaspor @2.0/3.2/3.0
+betclic   : Sivasspor - Antalyaspor @1.95/3.18/2.99
+unibet    : Sivasspor - Antalyaspor @1.91/3.15/2.95
+(winamax   /winamax   /winamax   ) -14.58%
+-- Arbitrage on: 
+winamax   : Gaziantep Bld Spor - Fenerbahce @9.0/4.2/1.26
+unibet    : Gaziantep FK - Fenerbahce @8.55/4.05/1.23
+(winamax   /winamax   /winamax   ) -14.29%
+-- Arbitrage on: 
+winamax   : BB Bodrumspor - Samsunspor @2.75/3.3/2.05
+betclic   : Bodrum Belediyesi Bodrumspor - Samsunspor @2.75/3.28/2.03
+unibet    : BB Bodrumspor - Samsunspor @2.72/3.25/1.99
+(winamax   /winamax   /winamax   ) -15.45%
+-- Arbitrage on: 
+winamax   : Konyaspor - Adana Demirspor @1.17/5.2/10.0
+betclic   : Konyaspor - Adana Demirspor @1.16/5.15/9.95
+unibet    : Konyaspor - Adana Demirspor @1.14/5.0/9.6
+(winamax   /winamax   /winamax   ) -14.70%
+-- Arbitrage on: 
+winamax   : Trabzonspor - Alanyaspor @1.54/3.7/4.4
+betclic   : Trabzonspor - Alanyaspor @1.52/3.68/4.35
+unibet    : Trabzonspor - Alanyaspor @1.49/3.62/4.3
+(winamax   /winamax   /winamax   ) -14.69%
+-- Arbitrage on: 
+winamax   : Eyüpspor - Galatasaray @6.0/4.3/1.33
+betclic   : Eyupspor - Galatasaray @6.1/4.3/1.31
+unibet    : Eyupspor - Galatasaray @6.0/4.2/1.29
+(betclic   /winamax   /winamax   ) -14.84%
+-- Arbitrage on: 
+winamax   : Kayserispor - Rizespor @2.0/3.55/2.7
+betclic   : Kayserispor - Caykur Rizespor @1.98/3.53/2.69
+unibet    : Kayserispor - Caykur Rizespor @1.94/3.48/2.65
+(winamax   /winamax   /winamax   ) -15.21%
+-- Arbitrage on: 
+winamax   : Göztepe AS - Istanbul Basaksehir @2.05/3.5/2.65
+betclic   : Goztepe - Istanbul Basaksehir @2.02/3.4/2.56
+unibet    : Goztepe SK - Istanbul Basaksehir @1.98/3.45/2.6
+(winamax   /winamax   /winamax   ) -15.09%
+-- Arbitrage on: 
+winamax   : Rizespor - Gaziantep Bld Spor @2.0/4.2/2.4
+unibet    : Caykur Rizespor - Gaziantep FK @1.95/4.1/2.37
+(winamax   /winamax   /winamax   ) -15.48%
+-- Arbitrage on: 
+winamax   : Alanyaspor - Kayserispor @2.2/3.8/2.3
+betclic   : Alanyaspor - Kayserispor @2.16/3.65/2.26
+unibet    : Alanyaspor - Kayserispor @2.12/3.7/2.28
+(winamax   /winamax   /winamax   ) -15.25%
+-- Arbitrage on: 
+winamax   : Galatasaray - Sivasspor @1.34/4.5/5.6
+betclic   : Galatasaray - Sivasspor @1.31/4.33/5.3
+(winamax   /winamax   /winamax   ) -14.71%
+-- Arbitrage on: 
+winamax   : Samsunspor - Eyüpspor @2.05/4.1/2.4
+betclic   : Samsunspor - Eyupspor @1.99/4.02/2.33
+(winamax   /winamax   /winamax   ) -14.84%
+-- Arbitrage on: 
+winamax   : Fenerbahce - Besiktas @1.7/3.85/3.3
+betclic   : Fenerbahçe - Besiktas @1.67/3.72/3.2
+(winamax   /winamax   /winamax   ) -15.10%
+-- Arbitrage on: 
+winamax   : Kasimpasa - Trabzonspor @2.2/3.9/2.25
+betclic   : Kasimpasa - Trabzonspor @2.16/3.77/2.22
+(winamax   /winamax   /winamax   ) -15.54%
+['winamax', 'pmu', 'betclic', 'zebet', 'netbet', 'unibet']
